@@ -1,0 +1,27 @@
+{
+  "name": "normativa-tributaria",
+  "version": "0.1.0",
+  "description": "Cómo el SII ha resuelto casos tributarios en Chile: oficios, circulares y resoluciones con su cita literal, su vigencia declarada y sus límites.",
+  "author": {
+    "name": "MindTheContext"
+  },
+  "repository": "mindthecontext/saber-normativa-tributaria",
+  "keywords": [
+    "tributario",
+    "sii",
+    "chile",
+    "oficios",
+    "circulares",
+    "impuestos",
+    "iva",
+    "renta",
+    "normativa"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Normativa Tributaria",
+    "shortDescription": "Criterios del SII sobre casos tributarios chilenos, con cita literal y vigencia declarada.",
+    "longDescription": "Qué ha resuelto el Servicio de Impuestos Internos ante casos concretos, a partir de 7.758 oficios, 3.901 circulares desde 1971, 1.981 resoluciones y 3.536 sentencias. Parte de la situación en las palabras de quien la vive y llega al criterio que la resuelve, con la cita literal para verificarla y la condición bajo la cual se resolvió así. Declara lo que no cubre: los documentos que no resuelven nada, los criterios que otro oficio dejó sin efecto, y las preguntas que exigen el juicio de un experto. No es asesoría tributaria y no calcula impuestos: entrega criterios con su fuente para que un profesional decida."
+  },
+  "mcpServers": "./.mcp.json"
+}
