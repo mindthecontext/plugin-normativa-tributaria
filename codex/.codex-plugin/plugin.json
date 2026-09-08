@@ -1,11 +1,11 @@
 {
   "name": "normativa-tributaria",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Cómo el SII ha resuelto casos tributarios en Chile: oficios, circulares y resoluciones con su cita literal, su vigencia declarada y sus límites.",
   "author": {
     "name": "MindTheContext"
   },
-  "repository": "mindthecontext/saber-normativa-tributaria",
+  "repository": "https://github.com/mindthecontext/saber-normativa-tributaria",
   "keywords": [
     "tributario",
     "sii",
