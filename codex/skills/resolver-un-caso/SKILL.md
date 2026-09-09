@@ -10,8 +10,32 @@ así, bajo qué condición, y qué queda fuera.
 
 ## Antes de buscar
 
-Llama a `obtener_criterios()`. Trae el **orden de lectura del dominio** y 46 criterios. Sigue ese
-orden; lo que viene abajo es el procedimiento operativo que lo acompaña, no un sustituto.
+Llama a `obtener_criterios()`. Trae el **orden de lectura del dominio** y 46 criterios de método.
+Sigue ese orden; lo que viene abajo es el procedimiento operativo que lo acompaña, no un
+sustituto.
+
+Esa misma respuesta trae el índice de una **segunda capa**: criterios de DOMINIO —cómo se razona
+un problema tributario, no cómo se usa este corpus—. Se piden por etapa, `obtener_criterios(etapa=…)`,
+y cada etapa cuesta unas 3 KB frente a 23 KB si se pidieran todos. Pídelos **en el momento en que
+aplican**, no todos al principio:
+
+| Cuándo estás… | Pide |
+|---|---|
+| recibiendo la consulta, antes de buscar | `etapa="encuadre"` |
+| calificando los hechos y eligiendo la norma | `etapa="analisis"` |
+| a punto de citar un documento como criterio del SII | `etapa="vigencia"` |
+| ante algo que puede no ser competencia del SII | `etapa="frontera"` |
+| concluyendo algo a favor de quien pregunta | `etapa="prueba"` |
+| redactando la respuesta final | `etapa="entrega"` |
+
+**Y esto no se negocia:** esos criterios los redactó un **experto sintético** y ninguno ha sido
+validado por un tributarista. Vienen con `estado_validacion: sin_validar`, con la `confianza` que
+el propio autor se dio y con `disenso_esperado`, que dice dónde cree que se equivoca. Úsalos para
+ORDENAR tu razonamiento —qué preguntar, en qué orden, qué no prometer— y **nunca los cites como
+doctrina ni los presentes como criterio profesional verificado.** Lo que se cita sigue siendo el
+documento del SII, con su id y su cita literal.
+
+Si un criterio de dominio contradice lo que dice un documento del corpus, **manda el documento**.
 
 ## 1 · Quédate con la situación, no la traduzcas todavía
 
