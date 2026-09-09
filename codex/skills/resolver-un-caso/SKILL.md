@@ -10,9 +10,18 @@ así, bajo qué condición, y qué queda fuera.
 
 ## Antes de buscar
 
-Llama a `obtener_criterios()`. Trae el **orden de lectura del dominio** y 46 criterios de método.
-Sigue ese orden; lo que viene abajo es el procedimiento operativo que lo acompaña, no un
-sustituto.
+Llama a `obtener_criterios()`. Trae el **orden de lectura del dominio** completo y un **índice**
+de los 46 criterios de método: id, título y la regla en una línea. Sigue ese orden; lo que viene
+abajo es el procedimiento operativo que lo acompaña, no un sustituto.
+
+El índice no es el criterio. Cuando uno toque tu caso, **pide su texto completo** con
+`obtener_criterios(ids="C-01,C-09")`: ahí está por qué existe y de qué error concreto nació, que
+es lo que evita aplicarlo mal. Y hay un momento en que pedirlo no es opcional: **las fichas y
+avisos de este saber citan criterios por su id** —«ver C-44», «según C-39»—. Si una respuesta que
+estás leyendo cita uno, pídelo antes de seguir.
+
+Se sirve así por una razón medida: los 46 completos son 88 KB y excedían el tope de respuesta, de
+modo que se pagaban en cada consulta y había que leerlos desde un fichero. El índice cuesta 14.
 
 Esa misma respuesta trae el índice de una **segunda capa**: criterios de DOMINIO —cómo se razona
 un problema tributario, no cómo se usa este corpus—. Se piden por etapa, `obtener_criterios(etapa=…)`,
