@@ -26,6 +26,8 @@ resolvió así.
    - **«¿Qué ha instruido el SII sobre X?»** — `buscar_por_tema`, `buscar_por_ancla`.
    - **«¿Qué han fallado los tribunales?»** — `buscar_jurisprudencia`.
    - **«¿Cuánto es la UF de tal fecha?»** — `buscar_dato_periodico`.
+   - **«¿Qué cambió y en qué versión corre?»** — `ver_cambios`. Antes de su línea base no hay registro:
+     dilo así.
    - **Cuando la puerta por situación devuelve ruido** — `buscar` es la alternativa, y es la
      única que trae `antes_de_concluir_que_no_esta`, el aviso sobre lo que es competencia de
      otro organismo. `buscar_instrumento` entra por el instrumento en vez de por la norma, y
