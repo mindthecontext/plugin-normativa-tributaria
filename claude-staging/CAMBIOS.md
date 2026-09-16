@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.7 · 2026-09-16
+
+Cuando otro pronunciamiento posterior cambió el criterio de un documento, su ficha ahora lo dice en `criterio`. Antes eso sólo aparecía si el propio Servicio lo había publicado como cambio de criterio bajo el artículo 26 del Código Tributario: en 27 de los 32 documentos superados que el saber conoce, la ficha traía la cita literal de quien lo superó y, en el mismo objeto, un «sin noticia de cambio» que afirmaba que nadie había declarado nada.
+
+Cada entrada declara de qué capa viene —lo que el SII publica por el artículo 26, o la lectura curada de la conclusión del documento que supera—, porque no se saben igual aunque las dos se lean del texto. Lo que un tercero NARRA sobre un documento sigue sin mover el estado, por ser un origen que reconstruimos nosotros, y ahora se declara aparte en vez de quedar como si nadie hubiera dicho nada. Un verbo de supersesión que el saber no sepa interpretar tampoco mueve el estado: se declara y se deja ver.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.6 · 2026-09-16
 
 Si tu cuenta está autenticada pero no tiene habilitado este servicio, ahora te lo dice: el conector aparece conectado, y al usarlo recibes el motivo y a quién pedir la habilitación. Antes aparecía como si faltara autorizar, y volver a autorizar no lo arreglaba. Si el registro de contratos no responde, el aviso de reintentar también llega al usarlo.
