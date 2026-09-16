@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.9 · 2026-09-16
+
+Cuando buscas por palabras filtrando por tipo de documento, el saber ya no te dice que no hay ninguno cuando sí los hay. Antes tomaba los mejores resultados del corpus entero y filtraba después: como los oficios son la gran mayoría, una búsqueda filtrada a circulares podía quedarse sin ninguna y responder «ningún documento de tipo circular calza», aunque varias contenían esas palabras. Ahora busca dentro del tipo pedido, y si de verdad no hay ninguno, dice sobre cuántos documentos lo comprobó.
+
+Lo que esto no cambia: que vengan documentos del tipo pedido no garantiza que venga el que mejor responde. El orden de los resultados sigue siendo el mismo de antes dentro de cada tipo, y las búsquedas sin filtro de tipo no cambian en nada.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.8 · 2026-09-16
 
 El aviso que acompaña al criterio de un oficio ya no contradice a su propia ficha. Decía siempre que no se había derivado si su criterio fue superado, incluso cuando la misma ficha mostraba quién lo superó y con qué cita; ahora dice lo que sí se sabe y hasta dónde llega. Y la versión que aparece en la procedencia de cada respuesta es la desplegada: decía «0.12.0», un número que no correspondía a ninguna versión del saber y que llegaba impreso a la sección de fuentes de las respuestas.
