@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.10 · 2026-09-17
+
+Cuando una búsqueda cae al respaldo porque Pinecone no responde, la traza ahora dice con precisión cuánto rinde ese respaldo: recupera 11 de los 20 aciertos que se pierden (55 %) y el 80 % de la calidad de orden medida como MRR. Antes decía que recuperaba «cuatro quintas partes de lo que se pierde» junto a los porcentajes de aciertos, y para los aciertos eso no era cierto.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.9 · 2026-09-16
 
 Cuando buscas por palabras filtrando por tipo de documento, el saber ya no te dice que no hay ninguno cuando sí los hay. Antes tomaba los mejores resultados del corpus entero y filtraba después: como los oficios son la gran mayoría, una búsqueda filtrada a circulares podía quedarse sin ninguna y responder «ningún documento de tipo circular calza», aunque varias contenían esas palabras. Ahora busca dentro del tipo pedido, y si de verdad no hay ninguno, dice sobre cuántos documentos lo comprobó.
