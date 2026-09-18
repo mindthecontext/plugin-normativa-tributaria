@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.13 · 2026-09-18
+
+Entran quince documentos que el SII publicó entre el 2 y el 16 de septiembre: las circulares 36, 37 y 38 de 2026 —reajustes, impuesto único y UF de octubre— y las resoluciones exentas 117 a 128. Y veinticuatro circulares antiguas que informan datos periódicos vuelven a reconocerse como tales: su materia se había extraído vacía del PDF y ahora se toma del índice del SII cuando eso ocurre, declarando de dónde viene el dato.
+
+La cobertura de documentos periódicos pasa de 959 a 986 circulares sin perder ninguna. Una de las quince, la resolución 124 de 2026, es un documento escaneado: entra en el catálogo pero su texto no se puede buscar todavía.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.12 · 2026-09-18
 
 Sin cambios para quien lo usa. Por dentro, las pruebas que autorizan una publicación dejan de fijar los conteos del corpus: ahora comprueban que cada herramienta responde bien, y las cifras se revisan aparte contra los datos. Es lo que permitirá publicar una cosecha nueva sin que la barrera falle por diseño.
