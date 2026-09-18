@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.14 · 2026-09-18
+
+La ficha de procedencia ya no dice una fecha de cosecha equivocada. Antes, para circulares y resoluciones, mostraba cuándo se había modificado el fichero en disco —lo advertía, pero mostraba esa— y ahora declara el día en que el catálogo se comprobó de verdad contra el SII.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.13 · 2026-09-18
 
 Entran quince documentos que el SII publicó entre el 2 y el 16 de septiembre: las circulares 36, 37 y 38 de 2026 —reajustes, impuesto único y UF de octubre— y las resoluciones exentas 117 a 128. Y veinticuatro circulares antiguas que informan datos periódicos vuelven a reconocerse como tales: su materia se había extraído vacía del PDF y ahora se toma del índice del SII cuando eso ocurre, declarando de dónde viene el dato.
