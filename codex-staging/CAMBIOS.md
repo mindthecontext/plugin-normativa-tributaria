@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.12 · 2026-09-18
+
+Sin cambios para quien lo usa. Por dentro, las pruebas que autorizan una publicación dejan de fijar los conteos del corpus: ahora comprueban que cada herramienta responde bien, y las cifras se revisan aparte contra los datos. Es lo que permitirá publicar una cosecha nueva sin que la barrera falle por diseño.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.11 · 2026-09-18
 
 Sin cambios para quien lo usa. Por dentro, el chequeo de salud del servicio ahora comprueba que puede leer el registro de contratos: si no puede, el despliegue queda en rojo en vez de pasar en verde con el servicio rechazando a todo el mundo.
