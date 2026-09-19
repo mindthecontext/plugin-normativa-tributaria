@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.17 · 2026-09-19
+
+Sin cambios para quien lo usa. Por dentro, todo el texto del corpus se extrae ahora con una sola biblioteca y una sola versión, en vez de depender de la que estuviera instalada en la máquina que cosechara. Es lo que permitirá que la actualización deje de depender de un equipo concreto.
+
+Cambia el espaciado del texto de 6.849 documentos —resoluciones y oficios—, no su contenido: las respuestas a las 165 preguntas de control son exactamente las mismas que antes del cambio. Dos fichas de significado quedan marcadas para relectura porque alguna de sus citas ya no aparece literalmente.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.16 · 2026-09-19
 
 Dos resoluciones de 2026 dejan de mostrar el RUT de un funcionario. El SII lo había borrado de sus propias resoluciones y nosotros seguíamos sirviendo la versión anterior: el documento se había vuelto a descargar, pero su texto no se había rehecho. El saber vuelve a decir lo que dice hoy la fuente.
