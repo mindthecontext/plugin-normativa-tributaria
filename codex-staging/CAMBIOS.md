@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.15 · 2026-09-18
+
+El saber empieza a ver lo que el SII cambia sin anunciarlo. Dos circulares antiguas —la 34 de 2018 y la 12 de 2021— ahora dicen que fueron modificadas por la Circular 26 de 2026, porque el SII lo añadió a su índice después de publicarlas; y tres documentos que el SII rehízo en silencio se volvieron a descargar, dejando constancia de la huella anterior y de cuándo se detectó el cambio.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.14 · 2026-09-18
 
 La ficha de procedencia ya no dice una fecha de cosecha equivocada. Antes, para circulares y resoluciones, mostraba cuándo se había modificado el fichero en disco —lo advertía, pero mostraba esa— y ahora declara el día en que el catálogo se comprobó de verdad contra el SII.
