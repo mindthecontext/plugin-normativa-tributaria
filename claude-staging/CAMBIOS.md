@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.16 · 2026-09-19
+
+Dos resoluciones de 2026 dejan de mostrar el RUT de un funcionario. El SII lo había borrado de sus propias resoluciones y nosotros seguíamos sirviendo la versión anterior: el documento se había vuelto a descargar, pero su texto no se había rehecho. El saber vuelve a decir lo que dice hoy la fuente.
+
+Afecta a las resoluciones 107 y 109 de 2026. El resto del corpus no cambia, y las respuestas a las preguntas conocidas siguen siendo las mismas.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.15 · 2026-09-18
 
 El saber empieza a ver lo que el SII cambia sin anunciarlo. Dos circulares antiguas —la 34 de 2018 y la 12 de 2021— ahora dicen que fueron modificadas por la Circular 26 de 2026, porque el SII lo añadió a su índice después de publicarlas; y tres documentos que el SII rehízo en silencio se volvieron a descargar, dejando constancia de la huella anterior y de cuándo se detectó el cambio.
