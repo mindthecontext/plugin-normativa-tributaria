@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.19 · 2026-09-20
+
+Sin cambios para quien lo usa. Arregla que el chequeo de salud del servicio no llegaba a declarar qué versión del corpus sirve: decía que no había manifiesto cuando sí lo había.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.18 · 2026-09-20
 
 Cada respuesta dice ahora de qué versión del corpus salió, no sólo qué versión del saber la produjo. Hoy coinciden —los datos viajan dentro del servicio— pero dejarán de hacerlo cuando el corpus se actualice a diario, y entonces esa distinción es lo que permite verificar una cita.
