@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.21 · 2026-09-22
+
+Sin cambios para quien lo usa: las mismas búsquedas devuelven los mismos documentos con las mismas puntuaciones. El índice de texto completo pasa a cargarse por filas, y con eso el servicio necesita un tercio de la memoria que necesitaba — 318 MB donde antes usaba unos 700. Se comprobó documento a documento sobre las 131.124 consultas que cubren los 65.362 términos del índice.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.20 · 2026-09-21
 
 Añade 26 documentos que el SII publicó desde la versión anterior, e incorpora la corrección que el SII hizo a la circular 12 de 2021 sin anunciarla: el texto que el saber cita de ese documento es ahora el que el Servicio publica hoy.
