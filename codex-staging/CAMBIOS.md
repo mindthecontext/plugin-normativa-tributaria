@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.22 · 2026-09-22
+
+520 documentos que se entregaban sin materia, sin fecha y sin enlace vuelven a traerlos: su texto estaba en el saber, pero bajo un identificador que el catálogo ya había corregido, y las búsquedas los devolvían sin decir de qué documento eran. De paso, 26 oficios dejan de llevar la advertencia de procedencia no confirmada, porque al corregirse su identificador su texto y su nombre vuelven a coincidir; quedan 47 con esa advertencia. Y los cuatro índices semánticos vuelven a cubrir el corpus completo, así que los documentos incorporados en las dos versiones anteriores ya se encuentran también por significado y no sólo por texto.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.21 · 2026-09-22
 
 Sin cambios para quien lo usa: las mismas búsquedas devuelven los mismos documentos con las mismas puntuaciones. El índice de texto completo pasa a cargarse por filas, y con eso el servicio necesita un tercio de la memoria que necesitaba — 318 MB donde antes usaba unos 700. Se comprobó documento a documento sobre las 131.124 consultas que cubren los 65.362 términos del índice.
