@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.20 · 2026-09-21
+
+Añade 26 documentos que el SII publicó desde la versión anterior, e incorpora la corrección que el SII hizo a la circular 12 de 2021 sin anunciarla: el texto que el saber cita de ese documento es ahora el que el Servicio publica hoy.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.19 · 2026-09-20
 
 Sin cambios para quien lo usa. Arregla que el chequeo de salud del servicio no llegaba a declarar qué versión del corpus sirve: decía que no había manifiesto cuando sí lo había.
