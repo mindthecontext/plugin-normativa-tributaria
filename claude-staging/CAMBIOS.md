@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.23 · 2026-09-22
+
+41 oficios recuperan el número y el año que declara su propio documento. Se servían con el identificador que el índice del SII les puso, que en estos casos es el del oficio al que citan y no el suyo: quien pedía el oficio 1.281 de 1980 recibía el texto del 5.138 de 2003. El saber ya había leído el sello de cada uno y guardaba la corrección sin aplicarla; cada una se contrastó además contra la página del SII antes de usarla, y tres se descartaron por contradecirla. Con esto, los documentos con la advertencia de procedencia no confirmada bajan de 47 a 23.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.22 · 2026-09-22
 
 520 documentos que se entregaban sin materia, sin fecha y sin enlace vuelven a traerlos: su texto estaba en el saber, pero bajo un identificador que el catálogo ya había corregido, y las búsquedas los devolvían sin decir de qué documento eran. De paso, 26 oficios dejan de llevar la advertencia de procedencia no confirmada, porque al corregirse su identificador su texto y su nombre vuelven a coincidir; quedan 47 con esa advertencia. Y los cuatro índices semánticos vuelven a cubrir el corpus completo, así que los documentos incorporados en las dos versiones anteriores ya se encuentran también por significado y no sólo por texto.
