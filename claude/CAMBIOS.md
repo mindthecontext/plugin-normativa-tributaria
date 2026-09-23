@@ -4,6 +4,22 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.26 · 2026-09-24
+
+Sin cambios para quien lo usa. La 0.3.25 no llegó a publicarse: le faltaba un caso de prueba para la herramienta nueva y la verificación contra staging la rechazó, que es lo que tiene que pasar.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento` · aparece `registrar_impresion`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
+## v0.3.25 · 2026-09-24
+
+Cuando resuelve un caso con cita, ahora puede preguntarte cómo te resultó —resuelto, resuelto con reserva, no sirvió— y pedirte una línea si no quedó limpia. Tu respuesta y la consulta se guardan para afinar el saber, y la pregunta te lo dice. VIENE APAGADO: el servicio declara en qué modo está y mientras esté cerrado no pregunta nada, así que esta versión no cambia lo que ves hasta que se encienda. Nunca pregunta cuando se abstiene: ahí la pregunta útil es otra.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.24 · 2026-09-22
 
 44 oficios que el índice del SII rotula con el número de OTRO documento —el que ellos mismos citan— dejan de contradecirse entre puertas y dejan de fecharse mal. Hasta ahora, encontrar uno buscando por su texto lo devolvía con un identificador y pedir su ficha lo devolvía con otro: quien lo encontraba y después lo pedía recibía otro documento, o nada. Ahora las dos puertas lo nombran igual, y cuando el rótulo del índice difiere del nombre real se entrega también ese rótulo, porque es con el que hay que buscarlo en la fuente para verificarlo. La fecha va con la identidad: la entrada del índice traía también la fecha del otro documento, así que un oficio de 2003 se servía fechado en 1980. Esa fecha deja de darse como suya —se declara como lo que es, la de la entrada del índice— y la fecha citable, la que el propio documento lleva impresa, viaja en su sello. Y uno de ellos deja de llamarse «oficio del año 3003»: su firma traía esa errata, mientras su cabecera, el índice del SII y el catálogo decían los tres 2003. Los demás oficios no cambian.

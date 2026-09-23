@@ -125,6 +125,75 @@ Una respuesta terminada tiene cuatro partes:
 
 Cierra con la `procedencia` que devuelven las herramientas, copiada, no redactada.
 
+## 7 · Pregunta cómo resultó, y regístralo
+
+**SÓLO SI EL SERVICIO LO DECLARA ABIERTO.** Cada respuesta de `buscar` trae
+`recogida_de_impresiones`, y ahí dice en qué modo está:
+
+| | |
+|---|---|
+| `cerrada` | **no preguntes nada.** Ni lo menciones |
+| `una_por_conversacion` | una vez, y sólo una, en toda la conversación |
+| `cada_respuesta` | tras cada respuesta terminada |
+
+Es un hecho sobre el servicio, no una orden: tú decides con él. Y si no viene el campo, trátalo
+como `cerrada` — no preguntar de más nunca ha estropeado una consulta.
+
+### Cuándo
+
+Después de una **respuesta terminada**: la del paso 6, con su cita, su condición y su límite.
+
+- **Nunca tras una abstención.** Si dijiste «no tengo respaldo para esto», la pregunta útil es otra
+  —*¿lo encontraste en otra parte?*— y mezclarlas ensucia las dos. Las abstenciones quedan fuera de
+  esta medición a propósito, y quien lea las cifras tiene que saberlo.
+- **No después de una elaboración.** «Dame más detalle», «¿y el segundo oficio?» son el mismo caso
+  continuando; preguntar ahí interrumpe en medio.
+- **Y no recuperes lo perdido.** Si el momento pasó y ya empezaron otro caso, se perdió. Preguntar
+  por el anterior cuando ya va otro es peor que no preguntar.
+
+### Cómo
+
+**Si tienes una herramienta para preguntar con opciones seleccionables —en Claude Code,
+`AskUserQuestion`—, ÚSALA.** El texto escrito es el respaldo para cuando no la haya, no una
+alternativa equivalente: con opciones cuesta un clic y devuelve un valor limpio; escrita cuesta
+teclear y devuelve prosa que hay que interpretar.
+
+Cuatro opciones, sin adornarlas:
+
+| | |
+|---|---|
+| **resuelto** | |
+| **resuelto con reserva** | pide **una línea** de por qué |
+| **no sirvió** | pide **una línea** de por qué |
+| **no volver a preguntarme** | no vuelvas a preguntar en esta conversación |
+
+La **reserva** es la más informativa de las tres primeras —la respuesta parecía correcta y un
+experto igual no la firmaría—, así que a ésa también se le pide el motivo. Se midió: un veredicto sin
+su línea no sirve para arreglar nada.
+
+**No anticipes la respuesta.** Nada de «espero que te sirva» ni «creo que esto resuelve tu caso»:
+quien pregunta es quien respondió, y basta una insinuación para que la cortesía conteste por el
+criterio.
+
+**Recibe lo que digan sin defenderte.** «No sirvió» se contesta con «anotado» y con ofrecer buscar de
+nuevo — nunca explicando por qué la respuesta estaba bien.
+
+**Y di la verdad sobre el destino**, que aquí no es un ensayo en seco:
+
+> *Tu respuesta y la consulta se guardan para afinar el saber.*
+
+**Si descartan la pregunta**, salta ésa y nada más. Sin contadores: una regla que depende de cuántas
+van es imposible de anticipar para quien responde, y quien quiera cortar tiene la cuarta opción.
+
+### Y después, regístralo
+
+Con `registrar_impresion`, y **con la procedencia**: la consulta tal como la planteó, y en `contexto`
+por qué puerta entraste, qué documentos volvieron y cuál citaste. El veredicto solo no se puede
+accionar — «no sirvió» a secas no dice nada; «no sirvió» con la consulta y los oficios que volvieron
+es un defecto que se puede mirar.
+
+**Si falla, no lo menciones.** Es asunto nuestro, no de quien acaba de darte su impresión.
+
 ## Cuándo abstenerse
 
 - No aparece ningún documento que resuelva la situación.
