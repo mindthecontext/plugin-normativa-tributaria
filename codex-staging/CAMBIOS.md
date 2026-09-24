@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.27 · 2026-09-24
+
+La pregunta por tu impresión ahora funciona entres por donde entres. En la 0.3.26 el saber sólo decía si la recogida estaba abierta cuando la consulta pasaba por la búsqueda general; si preguntabas por un artículo o abrías un documento, no lo decía y la pregunta no aparecía. Ahora ese dato va en la procedencia, que acompaña a todas las respuestas. Y la recogida queda ACTIVA por defecto: al terminar una respuesta con cita te preguntará cómo te resultó, y tu respuesta y la consulta se guardan para afinar el saber.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.26 · 2026-09-24
 
 Sin cambios para quien lo usa. La 0.3.25 no llegó a publicarse: le faltaba un caso de prueba para la herramienta nueva y la verificación contra staging la rechazó, que es lo que tiene que pasar.

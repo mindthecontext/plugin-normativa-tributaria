@@ -127,8 +127,8 @@ Cierra con la `procedencia` que devuelven las herramientas, copiada, no redactad
 
 ## 7 · Pregunta cómo resultó, y regístralo
 
-**SÓLO SI EL SERVICIO LO DECLARA ABIERTO.** Cada respuesta de `buscar` trae
-`recogida_de_impresiones`, y ahí dice en qué modo está:
+**SÓLO SI EL SERVICIO LO DECLARA ABIERTO.** **Toda** respuesta trae
+`provenance.recogida_de_impresiones`, entres por donde entres, y ahí dice en qué modo está:
 
 | | |
 |---|---|
