@@ -4,6 +4,18 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.34 · 2026-09-24
+
+Termina lo que la 0.3.33 dejó a medias. Las listas de anclas que acompañan a una búsqueda seguían ofreciendo leyes modificatorias como siguiente paso, aunque esa puerta las rechaza, y el mensaje del rechazo mandaba a buscar por el número de la ley —un camino que no funciona—.
+
+La 0.3.33 marcó la ficha de un documento y dejó intactas las listas de `anclas_que_concentran`, que son las que MÁS invitan porque llevan la llamada siguiente escrita. Había tres copias del mismo código armando esa lista y sólo se arregló una; ahora hay una función y las tres la usan.
+Y la sugerencia del rechazo estaba rota: buscar «20732», «20.732» o «Ley N° 20.732» devuelve cero documentos aunque el texto de la circular la nombre varias veces, porque el índice léxico no conserva los números con punto de miles. Ahora el mensaje manda a buscar por la MATERIA y declara esa limitación en vez de empujar hacia ella.
+La prueba también estaba a medias y por eso pasó con el defecto puesto: cubría una superficie de tres. Ahora exige lo mismo en las listas.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.33 · 2026-09-24
 
 La ficha de un documento ya no ofrece caminos que no llevan a ninguna parte. Cuando cita una ley modificatoria —«ley:21210»— lo dice y advierte que no se puede seguir por ahí; y si aun así se intenta, la respuesta explica QUÉ es esa referencia en vez de decir sólo que no la conoce.
