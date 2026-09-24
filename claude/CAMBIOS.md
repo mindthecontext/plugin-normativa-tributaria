@@ -4,6 +4,17 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.32 · 2026-09-24
+
+Dos oficios más se sirven con su identidad real. Uno se llamaba «oficio:2000:2584» y es el Oficio N° 3161 de 26-06-2003; el otro figuraba como de 2020 y es de 2005. Con eso quedan DOS identidades falsas en todo el corpus comprobable, frente a las 73 con que empezó el problema.
+
+Ninguno entró por un solo testigo. El primero lo declaran su propio encabezado, la migaja de navegación y la URL, los tres de acuerdo en 2003.
+El segundo tiene un matiz que conviene decir: su número —4.646— sí era correcto y su encabezado lo confirma, pero el año que ese encabezado trae es «205», una errata del SII. El año lo ponen la migaja, la URL y el índice, los tres en 2005, y así queda declarado en la entrada: el número sale del documento, el año no.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.31 · 2026-09-24
 
 Lo mismo que la 0.3.30, que no llegó a publicarse. Cambiar los datos exige volver a sellarlos y declarar el sello nuevo en el manifiesto, y eso se olvidó: la imagen no se construyó porque su propia comprobación detectó que el corpus no era el que su manifiesto declaraba.
