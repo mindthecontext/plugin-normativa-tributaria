@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.29 · 2026-09-24
+
+La pregunta por la calidad de la respuesta ya no se salta. En la 0.3.28 el saber tenía el dato y conocía la regla, y aun así terminaba respuestas largas sin preguntar: el paso iba al final de un procedimiento de siete, justo después de la instrucción que dice «cierra». Ahora la obligación se declara antes de empezar, se dice explícitamente que la procedencia cierra la respuesta pero no el turno, y se nombra el modo de fallo medido. Lo que ves: al terminar una respuesta con cita te va a preguntar cómo te resultó, sin que tengas que pedirlo. El procedimiento además TERMINA en ese paso: antes venían dos secciones después, así que lo último que se leía era otra cosa.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.28 · 2026-09-24
 
 Ahora también responde con el procedimiento completo cuando preguntas por una norma o un impuesto —«¿las contribuciones las pagan los mayores de 65?»— y no sólo cuando cuentas un caso. Antes esas preguntas se contestaban por fuera del procedimiento: con citas, sí, pero sin la comprobación de que están vigentes, de que el documento resuelve de verdad y de que los límites se declaran. Salió de las dos primeras consultas reales de un experto, que fueron las dos de esa clase. Y se arregla el registro de impresiones, que desde 0.3.27 no guardaba NINGUNA: la pregunta de calidad se hacía, la respuesta se recogía y se perdía ahí mismo, porque el servicio no lograba resolver de quién era. Lo que se recogió entre 0.3.27 y esta versión no está.

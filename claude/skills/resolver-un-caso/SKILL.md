@@ -21,6 +21,11 @@ Lo que NO entra por aquí sigue siendo lo mismo: pedir el TEXTO de un artículo 
 están `ver_articulo` y `ver_celda`—. La diferencia es entre «qué dice el artículo 17» y «cómo se
 aplica esto», y la segunda necesita el criterio del SII.
 
+**Y un turno de esta puerta no termina donde parece.** Si la recogida de impresiones está abierta,
+lo último del procedimiento es preguntar cómo resultó (paso 7) — no un añadido después del
+procedimiento, sino su último paso. Lo dejamos dicho aquí arriba, antes de que empieces, porque
+para cuando llegues allá vas a haber escrito una respuesta larga y el paso 7 va a quedar lejos.
+
 ## Antes de buscar
 
 Llama a `obtener_criterios()`. Trae el **orden de lectura del dominio** completo y un **índice**
@@ -58,6 +63,22 @@ doctrina ni los presentes como criterio profesional verificado.** Lo que se cita
 documento del SII, con su id y su cita literal.
 
 Si un criterio de dominio contradice lo que dice un documento del corpus, **manda el documento**.
+
+## Cuándo abstenerse
+
+- No aparece ningún documento que resuelva la situación.
+- Aparecen documentos que la rozan pero ninguno decide el punto.
+- El punto depende de hechos que quien pregunta no dio, y el propio SII los exige.
+- La consulta pide una liquidación o un cálculo: esto entrega criterios, no calcula impuestos.
+
+**Decir «no tengo respaldo para esto» es una respuesta correcta.** Una respuesta plausible sin
+documento detrás es, en este dominio, un pasivo profesional para quien la reciba.
+
+## Si preguntan por un artículo, no por un caso
+
+Usa `ver_articulo` o `ver_celda`. Y verifica el sufijo: **el 38 bis no es el 38**. Son normas
+distintas —término de giro contra agencias de empresas extranjeras— y responder sobre la
+equivocada no se nota.
 
 ## 1 · Quédate con lo que preguntaron, no lo traduzcas todavía
 
@@ -142,6 +163,13 @@ Una respuesta terminada tiene cuatro partes:
 
 Cierra con la `procedencia` que devuelven las herramientas, copiada, no redactada.
 
+**Y esa procedencia es TU SEÑAL, no tu cierre.** En cuanto termines de pegarla, si la recogida
+está abierta, pregunta — en el mismo turno, sin esperar a que digan nada. No lo dejes en «acuérdate
+al final»: acordarse es justo lo que falla cuando acabas de escribir mil palabras. Engánchalo a algo
+que sí vas a hacer con seguridad, y eso es pegar la procedencia.
+
+    pegaste la procedencia · la recogida está abierta  →  preguntas. Sin decidir nada más.
+
 ## 7 · Pregunta cómo resultó, y regístralo
 
 **SÓLO SI EL SERVICIO LO DECLARA ABIERTO.** **Toda** respuesta trae
@@ -155,6 +183,12 @@ Cierra con la `procedencia` que devuelven las herramientas, copiada, no redactad
 
 Es un hecho sobre el servicio, no una orden: tú decides con él. Y si no viene el campo, trátalo
 como `cerrada` — no preguntar de más nunca ha estropeado una consulta.
+
+**ASÍ ES COMO ESTO FALLA, y ya falló dos veces en producción.** No fallando el mecanismo, y no
+decidiendo no preguntar: **terminando una respuesta larga y dando el turno por cerrado.** Las dos
+veces el modo venía `cada_respuesta`, la regla se conocía, y al preguntársele por qué no había
+preguntado la respuesta fue «se me pasó». Así que no hay nada que decidir: si acabas de escribir la
+procedencia y la recogida está abierta, pregunta.
 
 ### Cuándo
 
@@ -211,19 +245,3 @@ accionar — «no sirvió» a secas no dice nada; «no sirvió» con la consulta
 es un defecto que se puede mirar.
 
 **Si falla, no lo menciones.** Es asunto nuestro, no de quien acaba de darte su impresión.
-
-## Cuándo abstenerse
-
-- No aparece ningún documento que resuelva la situación.
-- Aparecen documentos que la rozan pero ninguno decide el punto.
-- El punto depende de hechos que quien pregunta no dio, y el propio SII los exige.
-- La consulta pide una liquidación o un cálculo: esto entrega criterios, no calcula impuestos.
-
-**Decir «no tengo respaldo para esto» es una respuesta correcta.** Una respuesta plausible sin
-documento detrás es, en este dominio, un pasivo profesional para quien la reciba.
-
-## Si preguntan por un artículo, no por un caso
-
-Usa `ver_articulo` o `ver_celda`. Y verifica el sufijo: **el 38 bis no es el 38**. Son normas
-distintas —término de giro contra agencias de empresas extranjeras— y responder sobre la
-equivocada no se nota.
