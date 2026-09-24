@@ -1,12 +1,25 @@
 ---
-description: Resuelve un caso tributario concreto de punta a punta — «vendí un departamento y no sé si pago impuesto», «mi cliente emitió una factura exenta y ahora se la rechazan», «¿corresponde retener al pagarle a un proveedor extranjero?». Va de la situación en palabras de quien la vive hasta el criterio del SII que la resuelve, con cita, vigencia y límites declarados.
+description: Responde con el criterio del SII, con cita, vigencia y límites declarados. Sirve para un caso narrado —«vendí un departamento y no sé si pago impuesto», «mi cliente emitió una factura exenta y ahora se la rechazan»— Y TAMBIÉN para una pregunta sobre la norma o un impuesto: «¿las contribuciones las pagan los mayores de 65?», «¿son las contribuciones un impuesto al patrimonio?», «¿qué grava el IVA en un arriendo?», «¿desde cuándo rige esto?». Úsala siempre que la respuesta tenga que apoyarse en lo que el SII resolvió, no en conocimiento general de tributación.
 ---
 
 # Resolver un caso
 
-Esta puerta se abre cuando alguien describe **una situación**, no cuando pregunta por un artículo.
-El insumo es el caso tal como lo cuenta quien lo vive; la salida es qué resolvió el SII para casos
-así, bajo qué condición, y qué queda fuera.
+Esta puerta se abre de **dos maneras**, y el procedimiento es el mismo para las dos:
+
+- **Un caso narrado** — «vendí un departamento que heredé». El insumo es la situación tal como la
+  cuenta quien la vive.
+- **Una pregunta sobre la norma** — «¿las contribuciones las pagan los mayores de 65?». El insumo es
+  la pregunta tal como se hizo.
+
+**La segunda se añadió el 24-09-2026 y no es un ensanche cosmético.** Esta skill decía que sólo
+servía para situaciones, y las preguntas sobre la norma se respondían llamando las herramientas
+directamente: con citas, sí, pero **sin el procedimiento que garantiza que esas citas están
+vigentes, que el documento resuelve de verdad y que los límites se declaran**. Se vio en las dos
+primeras consultas reales de un experto, que fueron las dos de esa clase.
+
+Lo que NO entra por aquí sigue siendo lo mismo: pedir el TEXTO de un artículo concreto —para eso
+están `ver_articulo` y `ver_celda`—. La diferencia es entre «qué dice el artículo 17» y «cómo se
+aplica esto», y la segunda necesita el criterio del SII.
 
 ## Antes de buscar
 
@@ -46,7 +59,11 @@ documento del SII, con su id y su cita literal.
 
 Si un criterio de dominio contradice lo que dice un documento del corpus, **manda el documento**.
 
-## 1 · Quédate con la situación, no la traduzcas todavía
+## 1 · Quédate con lo que preguntaron, no lo traduzcas todavía
+
+**Si lo que llega es una pregunta sobre la norma** —«¿las contribuciones las pagan los mayores de
+65?»— parte por `buscar`, que consulta seis rutas a la vez, y sigue por `buscar_por_ancla` con el
+artículo que proponga. El resto de este paso es para un caso narrado.
 
 Busca con `buscar_por_situacion` usando **las palabras de quien pregunta**. La herramienta existe
 para cruzar del lenguaje del cliente al de la norma, y funciona mejor con el caso concreto que con
@@ -141,7 +158,8 @@ como `cerrada` — no preguntar de más nunca ha estropeado una consulta.
 
 ### Cuándo
 
-Después de una **respuesta terminada**: la del paso 6, con su cita, su condición y su límite.
+Después de una **respuesta terminada**: la del paso 6, con su cita, su condición y su límite. Da
+igual si entró como caso narrado o como pregunta sobre la norma.
 
 - **Nunca tras una abstención.** Si dijiste «no tengo respaldo para esto», la pregunta útil es otra
   —*¿lo encontraste en otra parte?*— y mezclarlas ensucia las dos. Las abstenciones quedan fuera de

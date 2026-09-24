@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.28 · 2026-09-24
+
+Ahora también responde con el procedimiento completo cuando preguntas por una norma o un impuesto —«¿las contribuciones las pagan los mayores de 65?»— y no sólo cuando cuentas un caso. Antes esas preguntas se contestaban por fuera del procedimiento: con citas, sí, pero sin la comprobación de que están vigentes, de que el documento resuelve de verdad y de que los límites se declaran. Salió de las dos primeras consultas reales de un experto, que fueron las dos de esa clase. Y se arregla el registro de impresiones, que desde 0.3.27 no guardaba NINGUNA: la pregunta de calidad se hacía, la respuesta se recogía y se perdía ahí mismo, porque el servicio no lograba resolver de quién era. Lo que se recogió entre 0.3.27 y esta versión no está.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.27 · 2026-09-24
 
 La pregunta por tu impresión ahora funciona entres por donde entres. En la 0.3.26 el saber sólo decía si la recogida estaba abierta cuando la consulta pasaba por la búsqueda general; si preguntabas por un artículo o abrías un documento, no lo decía y la pregunta no aparecía. Ahora ese dato va en la procedencia, que acompaña a todas las respuestas. Y la recogida queda ACTIVA por defecto: al terminar una respuesta con cita te preguntará cómo te resultó, y tu respuesta y la consulta se guardan para afinar el saber.
