@@ -4,6 +4,28 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.31 · 2026-09-24
+
+Lo mismo que la 0.3.30, que no llegó a publicarse. Cambiar los datos exige volver a sellarlos y declarar el sello nuevo en el manifiesto, y eso se olvidó: la imagen no se construyó porque su propia comprobación detectó que el corpus no era el que su manifiesto declaraba.
+
+La guarda hizo justo lo que debe: paró en la construcción de la imagen, antes de desplegar nada. Ninguna versión mal sellada llegó a servirse.
+Queda anotado el descuido, porque es reutilizable: `instantanea.py --check` pasó y por eso se dio por buena la comprobación. Son dos guardas distintas —una cuenta documentos y anclas, la otra sella el CONTENIDO de las 41 colecciones— y sólo la segunda ve un cambio en `identidad_oficios_override.jsonl`. Pasar una no dice nada de la otra.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
+## v0.3.30 · 2026-09-24
+
+Siete oficios que se servían sin número —con un identificador provisional como «oficio:2002:sn-ja400»— pasan a llamarse por su número real. Eran documentos que el índice del SII publica sin número en el título, así que la cosecha les puso un nombre derivado del fichero para no inventar una cita falsa. El número sí estaba: en el encabezado que el propio índice guarda al lado, y que nadie estaba leyendo. Ahora se pueden citar por su nombre.
+
+Ninguno entró por una sola fuente. Cada uno se aceptó sólo cuando el encabezado del índice y el del PROPIO DOCUMENTO coinciden en número y año, que es la misma disciplina de dos testigos con la que se aceptaron las 44 identidades anteriores.
+De once candidatos quedaron siete. Tres no tienen su texto cosechado, así que no hay segundo testigo y NO se aceptan: se dicen no comprobables en vez de darlos por buenos. Y uno queda fuera por un motivo distinto y más interesante: «oficio:2002:sn-ja246» es el Oficio N° 432 de 2002, pero esa casilla la ocupa hoy otro documento —que a su vez es el Oficio N° 2525 de 2003—. Meterlo dejaría dos documentos respondiendo al mismo nombre según el orden de búsqueda, que es exactamente lo que no se puede hacer.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.29 · 2026-09-24
 
 La pregunta por la calidad de la respuesta ya no se salta. En la 0.3.28 el saber tenía el dato y conocía la regla, y aun así terminaba respuestas largas sin preguntar: el paso iba al final de un procedimiento de siete, justo después de la instrucción que dice «cierra». Ahora la obligación se declara antes de empezar, se dice explícitamente que la procedencia cierra la respuesta pero no el turno, y se nombra el modo de fallo medido. Lo que ves: al terminar una respuesta con cita te va a preguntar cómo te resultó, sin que tengas que pedirlo. El procedimiento además TERMINA en ese paso: antes venían dos secciones después, así que lo último que se leía era otra cosa.
