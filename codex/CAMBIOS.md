@@ -4,6 +4,18 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.33 · 2026-09-24
+
+La ficha de un documento ya no ofrece caminos que no llevan a ninguna parte. Cuando cita una ley modificatoria —«ley:21210»— lo dice y advierte que no se puede seguir por ahí; y si aun así se intenta, la respuesta explica QUÉ es esa referencia en vez de decir sólo que no la conoce.
+
+Salió de una impresión de un experto. La lista de anclas de un documento mezclaba dos cosas distintas con la misma forma: un cuerpo legal con su artículo —«LIR:art14», que la puerta gobernada sirve con vigencia y cambios de criterio— y una ley modificatoria que el documento cita, que ninguna puerta sirve. Como las instrucciones dicen «con ese artículo sigue por buscar_por_ancla», tomar la segunda llevaba a un rechazo correcto pero mudo, con el agravante de que el ancla la habíamos ofrecido nosotros.
+Son 620 anclas de esa clase en los datos y cero servidas. La circular que responde la consulta sobre contribuciones entrega dos de ellas junto a la buena.
+Lo que se exige ahora no es la marca sino el contrato completo: que toda ancla ofrecida se pueda seguir, que toda marcada se rechace explicando, y que la marca no se coma las buenas. Esa última mitad es la que impide arreglarlo marcándolo todo.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.32 · 2026-09-24
 
 Dos oficios más se sirven con su identidad real. Uno se llamaba «oficio:2000:2584» y es el Oficio N° 3161 de 26-06-2003; el otro figuraba como de 2020 y es de 2005. Con eso quedan DOS identidades falsas en todo el corpus comprobable, frente a las 73 con que empezó el problema.
