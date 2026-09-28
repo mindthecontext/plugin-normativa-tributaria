@@ -4,6 +4,17 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.43 · 2026-09-28
+
+Cuando el saber dice que nadie cambió el criterio de un documento, ahora dice también cuántas declaraciones de cambio tiene detectadas y no pudo atribuir a nadie. Y detecta una forma de confirmar que se le escapaba.
+
+«Ningún documento del corpus declara haber cambiado ni confirmado el criterio de éste» era la frase, y había 145 declaraciones expresas detectadas que no llegaban a ninguna ficha. En la mayoría porque el propio texto no dice sobre qué criterio cambia —«se modifica el criterio de este Servicio», sin nombrar cuál—, que es un límite de la fuente y no del saber. Pero quien leía esa frase no podía saberlo. Ahora la ficha trae la cifra y aclara que ninguna de ellas es necesariamente sobre el documento que se está mirando.
+Lo segundo sí era nuestro: un oficio que dice «la interpretación contenida en el Oficio N° 708, de 1986, se encuentra plenamente vigente» está confirmando un criterio, y no lo cazaba ningún patrón porque el verbo no es «confirmar». Son diez casos en el corpus, y siete nombran el documento que confirman.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.42 · 2026-09-28
 
 El registro de cambios puede decir que una versión no debe servirse. La primera así marcada es la 0.3.35, cuya publicación falló a medias y que nadie llegó a recibir.
