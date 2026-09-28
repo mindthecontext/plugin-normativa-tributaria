@@ -4,6 +4,18 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.44 · 2026-09-28
+
+La cobertura distingue lo que está catalogado de lo que se puede leer. De las 3.780 circulares del corpus, 2.903 son fichas sin texto: constan, y no se pueden citar ni buscar por contenido.
+
+Esa diferencia estaba en los datos y no se decía en ninguna parte. La cobertura anunciaba 3.780 circulares desde 1974 y la procedencia de la misma respuesta decía 877: las dos ciertas —una cuenta lo catalogado, la otra lo que tiene texto— y ninguna decía cuál era cuál. Leídas juntas parecían un descuadre; leídas por separado prometían cosas distintas.
+Ahora cada capa dice cuántos se pueden leer y cuántos sólo constan, y las dos cifras cuadran.
+También se corrigió un motivo que era falso: el saber decía no alcanzar los actos anteriores a 2013 «porque el SII no publica índices de circulares antes de ese año». Sí los publica —la ficha de la Circular 92 de 1974 viene de su índice de 1974—; lo que falta es el texto. Y el criterio que guía las respuestas decía «este corpus sólo tiene circulares desde 2013», que hacía descartar 2.903 documentos que sí constan.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.43 · 2026-09-28
 
 Cuando el saber dice que nadie cambió el criterio de un documento, ahora dice también cuántas declaraciones de cambio tiene detectadas y no pudo atribuir a nadie. Y detecta una forma de confirmar que se le escapaba.
