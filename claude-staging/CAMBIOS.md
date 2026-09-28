@@ -4,6 +4,17 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.42 · 2026-09-28
+
+El registro de cambios puede decir que una versión no debe servirse. La primera así marcada es la 0.3.35, cuya publicación falló a medias y que nadie llegó a recibir.
+
+Hasta ahora, cuando una versión se retiraba, eso sólo constaba en un mensaje de commit. Y revertir el código no mueve lo que cada entorno sirve —es deliberado, y es lo que permite probar antes de que la reciba nadie—, así que una versión retirada podía quedarse servida sin que nada lo dijera. Pasó con la 0.3.23, que estuvo un día entero en producción después de revertirse.
+Ahora la marca viaja en el registro, se ve en el CAMBIOS.md del paquete y la lee el script que mueve a producción, que se niega a promover una versión quemada. La marca exige el motivo: no es lo mismo una versión que rompía algo —y entonces nada suyo debe volver— que una cuya publicación falló a medias, como ésta.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.41 · 2026-09-28
 
 Cuando el saber corrige el identificador de un oficio, ahora explica por qué el índice del SII no lo nombraba bien —y son dos motivos distintos, no uno—. Y deja de servir dos notas que se contradicen sobre el mismo par de documentos.
@@ -73,7 +84,9 @@ También incorpora la corrección que el SII hizo a la circular 34 de 2018 sin a
 - Skills: `empezar-aqui`, `resolver-un-caso`
 - Datos: sin manifiesto
 
-## v0.3.35 · 2026-09-25
+## v0.3.35 · 2026-09-25  ·  ⚠ QUEMADA
+
+> **Esta versión no debe servirse.** La etiqueta se empujó y su publicación falló antes de terminar, así que nadie llegó a recibirla. No es que su contenido fuera malo: todo viaja en la 0.3.36, que es la que hay que servir. El fallo fue una guarda que aprobó con una colección de más y saltó dentro del build, con la etiqueta ya puesta.
 
 Incorpora la corrección que el SII hizo a la circular 34 de 2018 sin anunciarla: el texto que el saber cita de ese documento es ahora el que el Servicio publica hoy.
 
