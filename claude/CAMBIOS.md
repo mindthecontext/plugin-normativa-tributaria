@@ -4,6 +4,18 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.37 · 2026-09-28
+
+Un documento del que no se puede saber de qué año es ya no pasa los filtros por año. Antes atravesaba cualquiera de los dos: los mismos 17 oficios salían pidiendo «hasta 1993» y pidiendo «desde 2026». Ahora quedan fuera, y la respuesta dice cuántos son y cómo verlos.
+
+El año se busca primero donde el SII fecha el documento en su índice y, si ahí no hay nada, en el sello que el propio documento lleva impreso. Así `oficio:1999:sn-jul01` —que el índice no fecha y cuyo texto dice «Oficio Nº 3.116, del 11.08.1999»— se filtra como lo que es, de 1999.
+Los que no tienen ninguna de las dos cosas quedan fuera del filtro, porque una consulta por fecha no puede responder por lo que no tiene fecha. Pero no se van en silencio: la respuesta trae cuántos fueron, cuáles, y que se ven repitiendo la consulta sin acotar por año. Lo mismo en `buscar_por_situacion`, donde el defecto era el contrario y dejaba pasar siempre lo indatable.
+Salió de la ronda de pruebas de la 0.3.36 y estuvo latente mucho tiempo: mientras la fecha de esos oficios se rellenaba con un valor armado a partir del nombre de la página del SII, ningún documento tenía el campo vacío y el fallo no se veía. Dejar de inventar esa fecha —que además era falsa— lo sacó a la luz.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.36 · 2026-09-27
 
 Entrega lo que la 0.3.35 no llegó a publicar. Lo que más se nota: la serie histórica —3.027 documentos anteriores a 2013 que hasta ahora eran inalcanzables— ya se puede buscar por texto, y esa búsqueda dejó de mezclar corpus: pedir el histórico devolvía documentos del otro índice.
