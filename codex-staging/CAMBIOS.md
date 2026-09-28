@@ -4,6 +4,18 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.39 · 2026-09-28
+
+Un documento que sabemos que es otro deja de fecharse con la fecha del que no es, y dice por cuál hay que citarlo. Afecta al Oficio 708 de 1986, que en realidad es el N° 774 de 2000.
+
+El SII publicó ese dictamen en dos secciones de su sitio, y a una de las dos copias le puso el número del oficio que el texto CITA. Una revisión a mano de los dos originales lo estableció hace dos días, y esa revisión estaba guardada y no llegaba a la respuesta: la ficha seguía fechando el documento el 28-02-1986, que es la fecha del oficio de 1986.
+Ahora la ficha no afirma esa fecha —dice por qué no puede— y trae `citar_por` con el identificador correcto, quién lo estableció y cuándo. La fecha del índice se conserva aparte, porque es la vía por la que el SII lo publica y perderla rompería la traza.
+Se remite y no se redirige, a propósito: son dos ficheros distintos con el mismo dictamen, y hacer que uno devuelva el otro daría la copia equivocada a quien pida la correcta.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.38 · 2026-09-28
 
 La procedencia que cierra cada respuesta se escribe en texto plano. Plegarla en un bloque de HTML dejaba los tags a la vista del lector, justo en la parte que sostiene lo verificable.
