@@ -4,6 +4,17 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.41 · 2026-09-28
+
+Cuando el saber corrige el identificador de un oficio, ahora explica por qué el índice del SII no lo nombraba bien —y son dos motivos distintos, no uno—. Y deja de servir dos notas que se contradicen sobre el mismo par de documentos.
+
+La explicación de las correcciones era una sola frase: «el índice lo rotula con el número del oficio que cita». Eso es cierto en 33 de 566 casos. En los otros 533 el SII sencillamente publicó el documento sin número, y el identificador salía del nombre de su página. La causa estaba en el propio identificador y ahora se lee de ahí.
+Lo segundo: cuando alguien había comparado dos documentos a mano y establecido que son el mismo dictamen, la ficha seguía sirviendo además una nota automática que los presentaba como dos oficios distintos y sugería nombrar los dos «para reforzar la cita». Seguir esa sugerencia era citar el mismo dictamen dos veces. Ahora lo derivado calla sobre los pares que ya se miraron, y sólo sobre ésos: los gemelos que nadie ha abierto siguen apareciendo.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.40 · 2026-09-28
 
 Una circular sin efecto que conserva trámites en curso ya no muestra la cláusula como si fuera suya: la dicta el acto que la dejó sin efecto, y ahora lo dice. Y la fecha desde la que dejó de regir viene explicada por lo que la produjo, no por otra cosa.
