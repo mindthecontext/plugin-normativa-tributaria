@@ -4,6 +4,17 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.40 · 2026-09-28
+
+Una circular sin efecto que conserva trámites en curso ya no muestra la cláusula como si fuera suya: la dicta el acto que la dejó sin efecto, y ahora lo dice. Y la fecha desde la que dejó de regir viene explicada por lo que la produjo, no por otra cosa.
+
+La cláusula que dice «las solicitudes ya presentadas continuarán tramitándose» nunca está en el texto de la circular que la muestra: habla de las circulares que su autor desplaza, así que viene del acto posterior. Quien la citara como texto de la circular que estaba leyendo citaba mal, y ese campo es justamente el que le dice a alguien que no la descarte.
+Lo segundo es de la misma familia. La fecha desde la que una circular dejó de regir venía acompañada de un motivo que explicaba una pregunta distinta —por qué no se puede derivar cuándo ENTRÓ en vigencia—. Son dos de las cuatro dimensiones del estado y no se responden con lo mismo. Ahora el motivo nombra el acto que la afectó y aclara qué no está diciendo.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.39 · 2026-09-28
 
 Un documento que sabemos que es otro deja de fecharse con la fecha del que no es, y dice por cuál hay que citarlo. Afecta al Oficio 708 de 1986, que en realidad es el N° 774 de 2000.
