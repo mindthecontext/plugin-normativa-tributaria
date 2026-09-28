@@ -4,6 +4,26 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.36 · 2026-09-27
+
+Entrega lo que la 0.3.35 no llegó a publicar. Lo que más se nota: la serie histórica —3.027 documentos anteriores a 2013 que hasta ahora eran inalcanzables— ya se puede buscar por texto, y esa búsqueda dejó de mezclar corpus: pedir el histórico devolvía documentos del otro índice.
+
+La etiqueta 0.3.35 se empujó y su publicación falló antes de terminar, así que nadie la recibió. Todo lo suyo viaja aquí, y su entrada de más abajo se queda como registro de esa etiqueta.
+Lo que cambia para quien pregunta, además de lo anterior: un oficio superado ya no vuelve sólo con «no_aplica», sino diciendo quién se pronunció después; `buscar_por_ancla` deja de ofrecer apartados que el propio texto del documento desmiente; y lo que el saber ha aprendido resolviendo conflictos entre documentos —que existe otra copia del mismo oficio, cuál conviene citar y por qué— ahora viaja con la respuesta, con la procedencia de cada dato para poder rastrear de dónde sale lo que no está escrito en el documento citado.
+También incorpora la corrección que el SII hizo a la circular 34 de 2018 sin anunciarla.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
+## v0.3.35 · 2026-09-25
+
+Incorpora la corrección que el SII hizo a la circular 34 de 2018 sin anunciarla: el texto que el saber cita de ese documento es ahora el que el Servicio publica hoy.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.34 · 2026-09-24
 
 Termina lo que la 0.3.33 dejó a medias. Las listas de anclas que acompañan a una búsqueda seguían ofreciendo leyes modificatorias como siguiente paso, aunque esa puerta las rechaza, y el mensaje del rechazo mandaba a buscar por el número de la ley —un camino que no funciona—.
