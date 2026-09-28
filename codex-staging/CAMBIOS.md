@@ -4,6 +4,17 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.38 · 2026-09-28
+
+La procedencia que cierra cada respuesta se escribe en texto plano. Plegarla en un bloque de HTML dejaba los tags a la vista del lector, justo en la parte que sostiene lo verificable.
+
+Las skills decían qué pegar y no decían en qué forma, así que la elegía el asistente. Uno eligió un `<details>` para plegarla —razonable si el cliente renderiza HTML, y la mayoría no lo hace— y el lector se encontró las etiquetas encima y debajo del bloque.
+Ahora las dos skills lo dicen y dicen por qué: la procedencia lleva los sellos SHA-256, las fechas de cosecha y lo que no es derivable, así que es el bloque que menos puede verse roto. Es el que le pide a quien lee que se fíe.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.37 · 2026-09-28
 
 Un documento del que no se puede saber de qué año es ya no pasa los filtros por año. Antes atravesaba cualquiera de los dos: los mismos 17 oficios salían pidiendo «hasta 1993» y pidiendo «desde 2026». Ahora quedan fuera, y la respuesta dice cuántos son y cómo verlos.

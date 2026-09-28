@@ -55,7 +55,9 @@ resolvió así.
 - Toda afirmación sobre lo que resolvió el SII va **con cita literal y con el id del documento**,
   para que quien la reciba pueda abrirlo y verificarla.
 - Toda respuesta con criterios **cierra con su procedencia**, copiada del campo `procedencia` que
-  devuelve cada herramienta. No la redactes de memoria.
+  devuelve cada herramienta. No la redactes de memoria, y escríbela **en texto plano**: un
+  `<details>` para plegarla no se renderiza en la mayoría de los clientes y deja los tags a la
+  vista, justo en el bloque que sostiene lo verificable.
 - Lo que llegue como `no_derivable` **no se estima** ni se completa con conocimiento general.
 - **Ante la falta de respaldo, se dice que no hay respaldo.** Abstenerse es una respuesta válida
   y aquí es la respuesta correcta más veces de lo que parece.

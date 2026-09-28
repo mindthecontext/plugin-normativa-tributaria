@@ -163,6 +163,16 @@ Una respuesta terminada tiene cuatro partes:
 
 Cierra con la `procedencia` que devuelven las herramientas, copiada, no redactada.
 
+**Y EN TEXTO PLANO, SIN HTML.** Plegarla en un `<details>` parece buena idea —ocupa menos— y en la
+mayoría de los clientes NO se renderiza: el lector ve los tags en crudo, encima y debajo del
+bloque. Pasó el 28-09-2026 en una respuesta real. Usa markdown corriente, o un bloque de código si
+quieres separarla del resto. Nunca etiquetas HTML.
+
+No es un detalle de estilo. La procedencia es la parte que sostiene lo verificable —los SHA-256, las
+fechas de cosecha, lo que no es derivable—, así que es justo el bloque que no puede verse roto: es
+el que le pide al lector que se fíe. Un tag suelto ahí se lee como un defecto del dato, no del
+formato.
+
 **Y esa procedencia es TU SEÑAL, no tu cierre.** En cuanto termines de pegarla, si la recogida
 está abierta, pregunta — en el mismo turno, sin esperar a que digan nada. No lo dejes en «acuérdate
 al final»: acordarse es justo lo que falla cuando acabas de escribir mil palabras. Engánchalo a algo
