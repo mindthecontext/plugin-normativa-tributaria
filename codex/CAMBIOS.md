@@ -4,6 +4,18 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.45 · 2026-09-28
+
+El SII publicó un mismo dictamen dos veces —una versión con los datos del consultante y otra sin ellos— y este saber servía las dos. Ahora sirve sólo la anonimizada, y dice que la otra existe.
+
+El ORD. N° 1798, de 17.05.2000 está en dos páginas del sitio del SII. Una reemplaza los datos del consultante por «xxxx»; la otra nombra su cargo diplomático, sus destinaciones y su nombramiento, que juntos identifican a una persona concreta. El saber entregaba una o la otra según por dónde se hubiera preguntado.
+El criterio es ser fiel al tratamiento que hace el SII: cuando publica el mismo dictamen anonimizado y sin anonimizar, se sirve el anonimizado. Pedir el retirado ya no responde «no encontrado» —sería falso, el documento existe y el SII lo publica— sino que explica la decisión, dice quién la tomó y remite al que sí se sirve. Y su texto sale de lo servido, que es lo que hace que el dato deje de tratarse y no sólo de difundirse; sigue en el área de trabajo, porque retirar del servicio no es borrar la cosecha.
+LO QUE ESTO NO GARANTIZA, y la propia respuesta lo dice: que el corpus esté libre de datos que identifiquen a una persona. Es un documento revisado a mano. La identificación por combinación de atributos —un cargo, unas fechas, un destino— no es detectable automáticamente, y este caso no lleva ni un RUT ni un nombre.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.44 · 2026-09-28
 
 La cobertura distingue lo que está catalogado de lo que se puede leer. De las 3.780 circulares del corpus, 2.903 son fichas sin texto: constan, y no se pueden citar ni buscar por contenido.
