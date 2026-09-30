@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.46 · 2026-09-30
+
+Doscientos nueve oficios vuelven a encontrarse por búsqueda de texto: estaban en el catálogo y con su texto guardado, pero habían quedado fuera del índice léxico, de modo que preguntar por sus palabras no los devolvía. Y el orden de los resultados en el corpus anterior a 2013 vuelve a ser el correcto: seis circulares que el SII publica comprimidas habían entrado con su contenido ilegible y desplazaban la puntuación de todo ese tramo. Añade además 5 documentos nuevos del Servicio e incorpora la corrección que el SII hizo a la circular 34 de 2018 sin anunciarla: el texto que el saber cita de ese documento es ahora el que el Servicio publica hoy.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.45 · 2026-09-28
 
 El SII publicó un mismo dictamen dos veces —una versión con los datos del consultante y otra sin ellos— y este saber servía las dos. Ahora sirve sólo la anonimizada, y dice que la otra existe.
