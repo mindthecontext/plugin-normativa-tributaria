@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.47 · 2026-09-30
+
+Tres mil veintisiete circulares y resoluciones anteriores a 2013 ya se pueden abrir y citar. El saber tenía su texto guardado y los encontraba al buscar por palabras, pero al pedir cualquiera de ellos respondía que no lo había cosechado y remitía al sitio del SII: quien encontraba el documento no podía leerlo. Ahora se entregan enteros y sellados, diciendo lo que de ellos no está derivado —a qué artículos tocan y si siguen rigiendo—, y los 1.822 que de verdad sólo constan en el catálogo lo siguen declarando. Con esto el saber declara correctamente lo que cubre: pasa de anunciar 10.517 documentos legibles a los 13.544 que ya tenía.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.46 · 2026-09-30
 
 Doscientos nueve oficios vuelven a encontrarse por búsqueda de texto: estaban en el catálogo y con su texto guardado, pero habían quedado fuera del índice léxico, de modo que preguntar por sus palabras no los devolvía. Y el orden de los resultados en el corpus anterior a 2013 vuelve a ser el correcto: seis circulares que el SII publica comprimidas habían entrado con su contenido ilegible y desplazaban la puntuación de todo ese tramo. Añade además 5 documentos nuevos del Servicio e incorpora la corrección que el SII hizo a la circular 34 de 2018 sin anunciarla: el texto que el saber cita de ese documento es ahora el que el Servicio publica hoy.
