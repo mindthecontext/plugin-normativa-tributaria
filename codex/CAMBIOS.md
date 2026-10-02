@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.50 · 2026-10-02
+
+Añade 2 documentos que el SII publicó desde la versión anterior (la resolución 133 de 2026 y la resolución 134 de 2026).
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.49 · 2026-10-02
 
 Cuando una búsqueda avisa de que también hay resultados en el corpus antiguo, ahora dice bien de qué años habla. Lo llamaba «doctrina anterior a 2001» y en realidad llega hasta 2012: de cada cinco documentos de ese corpus, cuatro eran posteriores a 2001, y los propios ejemplos que la respuesta ofrecía lo desmentían. Quien leyera esa etiqueta podía descartar un tramo de once años que sí está y sí se puede leer. El rango se calcula ahora del corpus, así que seguirá siendo cierto cuando crezca. Por dentro, y sin efecto en lo que se responde: la comprobación que vigila que las búsquedas sigan devolviendo lo mismo vuelve a servir de algo. Se renovaba en cada actualización del corpus sin decir qué había cambiado, y así pasó inadvertido en septiembre que doscientos nueve documentos habían dejado de encontrarse. Ahora distingue lo que sólo mueve el orden de los resultados de lo que saca un documento del alcance de las búsquedas, y nombra cuáles.
