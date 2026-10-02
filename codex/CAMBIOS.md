@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.48 · 2026-10-01
+
+Un dictamen que este saber dejó de servir en septiembre —porque identifica a una persona— deja también de aparecer en los datos que el saber publica. No llegaba a nadie: el servicio ya lo filtraba al responder. Lo que quedaba era su rastro dentro de los ficheros del corpus, incluidos trescientos de sus términos en el índice de búsqueda, y uno de ellos sólo aparecía en él. De paso, ese documento dejaba de contar en el total con que se calcula el orden de los resultados, de modo que el ranking de todo el corpus se corrige un poco. Y una circular cuya ficha estaba sellada contra un texto que el SII ya había cambiado vuelve a corresponder al texto de hoy.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.47 · 2026-09-30
 
 Tres mil veintisiete circulares y resoluciones anteriores a 2013 ya se pueden abrir y citar. El saber tenía su texto guardado y los encontraba al buscar por palabras, pero al pedir cualquiera de ellos respondía que no lo había cosechado y remitía al sitio del SII: quien encontraba el documento no podía leerlo. Ahora se entregan enteros y sellados, diciendo lo que de ellos no está derivado —a qué artículos tocan y si siguen rigiendo—, y los 1.822 que de verdad sólo constan en el catálogo lo siguen declarando. Con esto el saber declara correctamente lo que cubre: pasa de anunciar 10.517 documentos legibles a los 13.544 que ya tenía.
