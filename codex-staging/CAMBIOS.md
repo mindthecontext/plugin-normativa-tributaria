@@ -4,6 +4,18 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.55 · 2026-10-04
+
+Cuando un documento no rige del todo, las listas dicen ahora QUÉ acto lo dejó así y HASTA DÓNDE alcanza. Antes sólo decían «sin efecto», y con eso una respuesta llegó a recomendar buscar la circular que reemplazó a la Circular 73 de 2020, que no existe: lo único que reemplaza algo de ella es una tabla de su página 48. Además, cuando el SII sólo estampa «modificada por» sin decir cuánto, la respuesta ya no lo cuenta como si afectara al documento entero: dice que el alcance no está declarado. Y el bloque de procedencia separa lo que sirve para decidir de lo que sirve para verificar.
+
+«TOTAL» NO ERA SIEMPRE UN HALLAZGO. De las 207 relaciones con alcance total, 103 venían sólo de una estampa —el sello que el SII imprime en el PDF del documento afectado—, y una estampa dice quién lo afectó, nunca cuánto. El saber ponía «total» porque tenía que poner algo. Ahora esas se declaran como alcance no declarado, y las que el texto sí acota conservan su nombre: «sólo Página 48», «sólo Capítulo IV».
+LO QUE CUESTA: entre 0,08 y 0,46 KB por respuesta, del 0,1% al 0,5%, y sólo lo llevan los documentos que no rigen sin más.
+LA PROCEDENCIA, en dos tramos. Primero lo que un profesional usa para decidir si se fía —hasta cuándo alcanza el corpus, qué no es derivable—; al final, bajo un rótulo que dice para qué sirven, los identificadores técnicos. La huella de cada documento se mantiene COMPLETA: es lo único del bloque con un uso ejecutable, y es lo que permite comprobar una cita sin depender de nosotros. Y el articulado dice ahora cómo comprobarlo, incluido que el SII no publica una página enlazable por artículo.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.54 · 2026-10-04
 
 Al pedir el artículo 14 de la Ley de la Renta —el del régimen de las empresas— el saber entregaba el texto que estuvo vigente hasta el 31 de diciembre de 2019, el del régimen de renta atribuida que la Ley 21.210 reemplazó. Lo entregaba como «fuente primaria», sin advertencia, sólo porque es el texto más largo que el SII guarda de ese artículo. Ahora entrega uno que rige, nombra cuál está leyendo y deja la versión antigua a la vista para quien la pida. Lo mismo con los artículos 149 y 150 del Código Tributario, que la Ley 21.713 eliminó: ahora avisan.
