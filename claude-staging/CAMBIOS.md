@@ -4,6 +4,19 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.53 · 2026-10-04
+
+Siete circulares que el saber daba por derogadas enteras vuelven a regir, porque lo que el SII dejó sin efecto en ellas fue sólo una parte. La más importante es la Circular 73 de 2020, la instrucción principal del régimen de empresas de la Ley 21.210: se descartaba de las búsquedas por artículo porque «reemplaza tabla incluida en la página 48» se había leído como un reemplazo de la circular entera. Las otras seis son la 39 de 2022, la 12, la 70 de 2015, la 20 y la 41 de 2014 y la 2 de 2017. Y cuando el cálculo de vigencia del saber no coincide con lo que el SII marca en su índice, la respuesta ya no lo da por seguro: lo dice.
+
+LO DETECTÓ UN AGENTE en una prueba con preguntas de clientes: entró por otra puerta, abrió la circular que supuestamente derogaba a la 73, leyó que sólo cambiaba una tabla y siguió usándola. Estaba así desde la primera versión con registro.
+TRES FORMAS DE LEER MAL, corregidas las tres: se perdía lo que limita lo derogado («una tabla», «el apartado 2.8», «en lo pertinente», «salvo el N° 4 de su Capítulo II»); no se entendía el plural «Circulares N°s 20 y 41», y el «parcialmente» que lo precedía se perdía; y una derogación se extendía a las circulares de la lista de referencias, que sólo se citan.
+Además, la Circular 40 de 2015 pasa a figurar con partes sin efecto, como dice la Circular 41 de 2021 («Deroga: en parte Circular Nºs 40 de 2015 y 33 de 2015»), que antes no se leía.
+LA REGLA NUEVA: si el saber calcula que una circular no rige y el SII no la marca sin efecto —o al revés—, `buscar_por_ancla` ya no la descarta, y la ficha responde `rige_hoy: no_derivable` con la discrepancia y el acto que habría que abrir. Hoy no queda ninguna; la regla es para la próxima mala lectura.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.52 · 2026-10-03
 
 Entrega lo que la 0.3.51 no llegó a publicar. Lo que más se nota: algunos documentos traen ahora lo que autores académicos han escrito sobre ellos —1.557 documentos anotados a partir de 443 artículos de la Revista de Estudios Tributarios (U. de Chile) y la Revista de Derecho Tributario (U. de Concepción), entre 2010 y 2026—, también los anteriores a 2013. Además, 1 documento nuevo del SII y las correcciones que el Servicio hizo sin anunciarlas a las circulares 26 de 2026 y 12 de 2021.
