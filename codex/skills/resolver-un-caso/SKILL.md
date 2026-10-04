@@ -133,6 +133,37 @@ Si quien pregunta necesita saber qué rige **hoy**, la vigencia es parte de la r
 nota al pie. Si pregunta por un hecho de 2019, el criterio de 2019 puede ser el correcto aunque
 hoy esté superado — y eso también hay que decirlo.
 
+## 3 bis · La ley y la instrucción se leen juntas
+
+Si la pregunta es de **régimen** —cómo tributa algo, en qué orden se imputa, qué crédito
+corresponde— hay dos voces y cada una dice algo que la otra no:
+
+- el **articulado** (`ver_articulo`) dice qué manda la norma;
+- la **circular** que lo instruye dice cómo el SII lo aplica, y a menudo lo acota.
+
+**Citaste una sola: busca la otra antes de cerrar.** Si te apoyaste en la ley, pregunta qué
+circular la instruye; si te apoyaste en una circular, cita el texto legal que desarrolla. No es
+«buscar más»: es una comprobación de cierre, y normalmente son una o dos llamadas.
+
+**Por qué, con el caso que lo midió.** A la misma pregunta —un dividendo mayor que las utilidades
+tributables registradas— cuatro respuestas distintas citaron la ley o la circular, nunca las dos.
+El artículo 14 enumera seis escalones de imputación e incluye las UBET como numeral (iv). La
+Circular 73 de 2020 añade algo que la ley sola no dice:
+
+> «Atendido que, por regla general, todo retiro, remesa o distribución se encuentra afecto a los
+> IF, salvo que se imputen a las cantidades que se controlan en el registro REX, las UBET **solo
+> deberán determinarse cuando las empresas efectúen una devolución de capital** a sus
+> propietarios.»
+
+Quien respondió sólo con la ley mandó al lector a un cálculo que el propio Servicio declara
+innecesario. No se equivocó en derecho: se equivocó de énfasis, por no tener la instrucción
+delante.
+
+**Y si no concuerdan, se dice, no se elige.** La ley manda; la instrucción vincula al Servicio,
+que es quien va a fiscalizar. Cuando la circular acota a la ley, eso es lo operativo y hay que
+decir que es la lectura del SII. Cuando parecen contradecirse de verdad, **eso es el hallazgo**:
+se declara la discrepancia con las dos citas y no se resuelve por cuenta propia.
+
 ## 4 · Repetición no es corroboración
 
 Si varios resultados dicen lo mismo con el mismo fraseo, revisa si son **el mismo documento
@@ -229,6 +260,33 @@ recuerdes: el 26% de los cambios que afirman los autores no resiste la comparaci
 | «Según Seguel Malagueño (2017), forma parte de la jurisprudencia administrativa que el autor califica de confusa» | sin el documento nombrado, la frase no dice de qué habla |
 | «Calderón Torres (2016) **complementa** la Resolución 68…» | el «complementa» venía del título de la resolución, no de lo que hace el autor |
 | «La doctrina establece que el leasing es un negocio único, por lo que corresponde…» | convierte una opinión en criterio aplicable: es la confusión de voz que el piloto midió en 0 de 22 y que no debe aparecer |
+
+## 5 ter · Antes de declarar un límite, agota lo que ya tienes delante
+
+Escribir «no encontré», «ningún documento revisado lo decide» o «este corpus no puede confirmarlo»
+es una afirmación sobre el corpus, y se comprueba antes de hacerla. **Medido sobre la prueba con
+un agente: de los límites declarados, tres de tres eran falsos** y el documento que resolvía
+estaba al alcance.
+
+Tres comprobaciones, en este orden:
+
+1. **Si nombraste un documento, ábrelo.** Mencionar una circular por su materia y declarar acto
+   seguido que no sabes algo que ella instruye es el fallo más repetido. Pasó con la Circular 57
+   de 2005: se la citó al pasar y se declaró como límite no saber si el trámite es hoy en línea
+   — que es justo lo que esa circular implementa.
+2. **Busca por la materia exacta, no por cómo la contó quien pregunta.** «Multa por no informar
+   inversiones en el exterior» no estaba; la Circular 48 de 2022 trata justo eso.
+3. **Mira la doctrina académica que la lista ya te dio.** El aviso trae `el_cambio_trata_de` con la
+   cuestión concreta: si toca tu pregunta, abre la ficha. En un caso real el agente declaró que
+   «ningún documento revisado decide si una simple cuenta por pagar basta» para el abono en
+   cuenta, y los documentos que lo deciden estaban en su propia lista, con el cambio verificado.
+
+Y antes de concluir que el SII no se ha pronunciado, mira `antes_de_concluir_que_no_esta`: hay
+materias que el Servicio no resuelve, y ahí «no encontré» es falso además de desorientador.
+
+**Esto no contradice la abstención.** Abstenerse cuando el corpus no alcanza es correcto y es lo
+que hace confiable a este saber. Lo que no vale es abstenerse **sin haber mirado**: eso convierte
+una omisión propia en un límite del corpus, y quien lee no puede notar la diferencia.
 
 ## 6 · Responde con cita, condición y límite
 

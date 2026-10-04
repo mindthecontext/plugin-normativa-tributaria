@@ -4,6 +4,18 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.56 · 2026-10-04
+
+Cuando un documento de la lista tiene un cambio de criterio verificado por autores académicos, el aviso dice ahora DE QUÉ TRATA ese cambio y no sólo que existe. Y el procedimiento pide dos cosas nuevas: contrastar la ley con la circular que la instruye cuando la pregunta es de régimen, y agotar lo que ya está a la vista antes de declarar que el corpus no tiene algo.
+
+EL AVISO DECÍA SÓLO QUE HABÍA ALGO. Con `{posturas: 0, cambio_verificado: true}` quien recorre una lista no puede saber si ese cambio toca su pregunta, así que no abre la ficha. En una prueba real el agente escribió que «ningún documento revisado decide si una simple cuenta por pagar basta» para el abono en cuenta, y los documentos que lo deciden estaban en su propia lista con el cambio verificado. Ahora el aviso trae la cuestión entera: cortarla la dejaba a media frase y una pregunta truncada no deja decidir si toca la tuya. Son 68 documentos en todo el corpus y cuesta 0,23% de una respuesta cuando aparece.
+LA LEY Y LA INSTRUCCIÓN SE LEEN JUNTAS. Medido sobre cuatro respuestas a la misma pregunta: todas citaron una de las dos voces y ninguna las contrastó. El artículo 14 enumera seis escalones de imputación; la Circular 73 de 2020 añade que uno de ellos sólo debe calcularse cuando hay devolución de capital. Quien respondió sólo con la ley mandó al lector a un cálculo que el propio Servicio declara innecesario. Y si las dos voces no concuerdan, ahora se declara la discrepancia en vez de elegir.
+ANTES DE DECIR «NO ENCONTRÉ», tres comprobaciones: abrir el documento que uno mismo nombró, buscar por la materia exacta y mirar la doctrina que la lista ya entregó. De los límites que un agente declaró en una prueba, tres de tres eran falsos y el documento que resolvía estaba a su alcance. Esto NO cambia la abstención, que sigue siendo correcta cuando el corpus no alcanza: lo que cambia es abstenerse sin haber mirado.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.55 · 2026-10-04
 
 Cuando un documento no rige del todo, las listas dicen ahora QUÉ acto lo dejó así y HASTA DÓNDE alcanza. Antes sólo decían «sin efecto», y con eso una respuesta llegó a recomendar buscar la circular que reemplazó a la Circular 73 de 2020, que no existe: lo único que reemplaza algo de ella es una tabla de su página 48. Además, cuando el SII sólo estampa «modificada por» sin decir cuánto, la respuesta ya no lo cuenta como si afectara al documento entero: dice que el alcance no está declarado. Y el bloque de procedencia separa lo que sirve para decidir de lo que sirve para verificar.
