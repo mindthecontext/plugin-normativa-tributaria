@@ -4,6 +4,18 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.54 · 2026-10-04
+
+Al pedir el artículo 14 de la Ley de la Renta —el del régimen de las empresas— el saber entregaba el texto que estuvo vigente hasta el 31 de diciembre de 2019, el del régimen de renta atribuida que la Ley 21.210 reemplazó. Lo entregaba como «fuente primaria», sin advertencia, sólo porque es el texto más largo que el SII guarda de ese artículo. Ahora entrega uno que rige, nombra cuál está leyendo y deja la versión antigua a la vista para quien la pida. Lo mismo con los artículos 149 y 150 del Código Tributario, que la Ley 21.713 eliminó: ahora avisan.
+
+EL SII YA LO DECÍA Y EL SABER NO LO LEÍA. El Administrador de Contenido Normativo marca estas situaciones en el propio título o en la glosa —«(vigente hasta el 31.12.2019)», «ELIMINADO por el art. 1 N° 55 de la Ley N° 21.713», «DEROGADO por la Ley N° 20.780»— y esa marca no se miraba. Son 53 de las 1.136 piezas del articulado. En cuatro artículos la pieza marcada era justamente la que se servía: el 14 de la Renta, el 84 de la Renta, y el 60 y el 153 del Código Tributario.
+QUÉ CAMBIA AL PEDIR UN ARTÍCULO: se entrega la pieza más extensa que el SII NO marca como derogada; la respuesta dice por su nombre cuál es —antes decía sólo «el texto más extenso», así que no se sabía si se estaba leyendo la letra A) o la D)—; y las piezas derogadas siguen en el índice, marcadas, para poder pedirlas. Si se pide una, se entrega con la frase literal del SII sobre por qué ya no rige.
+LO QUE SIGUE SIN PODERSE SABER, y ahora se declara en cada respuesta: el SII no consolida todas las derogaciones. El N° 3 del artículo 31 sigue publicando la devolución del impuesto de primera categoría como pago provisional, que la Ley 21.210 eliminó desde el 1 de enero de 2024, y nada en el texto lo advierte. Se comprobó contra el SII en vivo que su texto es idéntico al que el saber guarda: es un límite de la fuente, no un retraso de la cosecha.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.53 · 2026-10-04
 
 Siete circulares que el saber daba por derogadas enteras vuelven a regir, porque lo que el SII dejó sin efecto en ellas fue sólo una parte. La más importante es la Circular 73 de 2020, la instrucción principal del régimen de empresas de la Ley 21.210: se descartaba de las búsquedas por artículo porque «reemplaza tabla incluida en la página 48» se había leído como un reemplazo de la circular entera. Las otras seis son la 39 de 2022, la 12, la 70 de 2015, la 20 y la 41 de 2014 y la 2 de 2017. Y cuando el cálculo de vigencia del saber no coincide con lo que el SII marca en su índice, la respuesta ya no lo da por seguro: lo dice.
