@@ -4,6 +4,32 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.52 · 2026-10-03
+
+Entrega lo que la 0.3.51 no llegó a publicar. Lo que más se nota: algunos documentos traen ahora lo que autores académicos han escrito sobre ellos —1.557 documentos anotados a partir de 443 artículos de la Revista de Estudios Tributarios (U. de Chile) y la Revista de Derecho Tributario (U. de Concepción), entre 2010 y 2026—, también los anteriores a 2013. Además, 1 documento nuevo del SII y las correcciones que el Servicio hizo sin anunciarlas a las circulares 26 de 2026 y 12 de 2021.
+
+La etiqueta 0.3.51 se empujó y su publicación se detuvo en las pruebas contra staging, así que nadie la recibió. Todo lo suyo viaja aquí, y su entrada de más abajo —que describe la doctrina académica en detalle— se queda como registro de esa etiqueta.
+LO ÚNICO QUE CAMBIA RESPECTO DE LO QUE ELLA DESCRIBE: los 272 documentos anotados anteriores a 2013 —136 con posturas o cambios de criterio verificados, justo las circulares antiguas que los autores más discuten— ahora traen su doctrina al abrirlos. En la 0.3.51 se abrían sin ella.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
+## v0.3.51 · 2026-10-03  ·  ⚠ QUEMADA
+
+> **Esta versión no debe servirse.** La etiqueta se empujó y su publicación se detuvo en las pruebas contra staging, así que nadie llegó a recibirla. Su contenido era bueno salvo en una cosa: los documentos anteriores a 2013 se abrían SIN su doctrina académica, porque la herramienta los sirve por un camino propio. Lo detectó uno de sus propios casos de prueba —22 de 23—. Todo viaja en la 0.3.52, con eso corregido.
+
+Algunos documentos traen ahora lo que autores académicos han escrito sobre ellos: 1.557 documentos anotados a partir de 443 artículos de la Revista de Estudios Tributarios (U. de Chile) y la Revista de Derecho Tributario (U. de Concepción), entre 2010 y 2026. Aparece al abrir un documento, en un apartado propio, con el autor, el año y la página; en las listas sólo se avisa de que existe. Además añade 1 documento que el SII publicó desde la versión anterior (el oficio 2572 de 2026) e incorpora las correcciones que el SII hizo sin anunciarlas a las circulares 26 de 2026 y 12 de 2021: el texto que el saber cita de esos documentos es ahora el que el Servicio publica hoy.
+
+ES UNA TERCERA VOZ Y NO CAMBIA NINGUNA DE LAS DOS QUE YA HABÍA. Lo que un autor opina no es criterio del SII, no es un fallo y no vincula a nadie, así que va siempre con esa advertencia y nunca mezclado con el criterio, las advertencias del documento ni la jurisprudencia. Que un autor critique un oficio no lo deja sin efecto: el estado de vigencia y el del criterio salen igual que antes, y hay una comprobación que lo exige.
+QUÉ TRAE CADA DOCUMENTO: hasta tres posturas, cada una con el documento nombrado, el autor, el año y la página; los cambios de criterio que un autor afirmó Y que se comprobaron contra los dos textos, con su veredicto; las alertas de vigencia —cuando el autor analizó una versión anterior de la ley— y la referencia completa para citar.
+LO QUE NO TRAE, y cada cosa por su razón: el texto de las revistas, porque se cita con paráfrasis propia y una frase breve; la tesis de cada artículo, porque al resumirla volvía firme lo que el autor plantea como hipótesis; y los cambios de criterio que los autores afirman y no resistieron la comparación, que son el 26%.
+No cambia qué documentos encuentran las búsquedas ni en qué orden. Y las respuestas de búsqueda ahora respetan de verdad el tamaño que declaran: antes el reparto se calculaba con el peso MEDIO de una ficha y las respuestas largas se pasaban del techo.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.50 · 2026-10-02
 
 Añade 2 documentos que el SII publicó desde la versión anterior (la resolución 133 de 2026 y la resolución 134 de 2026).

@@ -48,6 +48,9 @@ resolvió así.
 - **Hay documentos casi idénticos.** Existen familias de oficios que repiten el mismo formulario
   —la mayor tiene 49— cambiando sólo el contribuyente. Que cinco resultados digan lo mismo **no
   es corroboración**: puede ser el mismo documento cinco veces.
+- **Un autor académico no es el SII ni un tribunal.** Algunos documentos traen lo que dicen
+  autores de dos revistas arbitradas. Es la opinión de quien la escribió: sirve para
+  entender, contrastar y advertir; nunca para decir qué criterio aplica. No vincula a nadie.
 - **Sin cálculo de impuestos.** Este saber dice qué criterio aplica; no liquida.
 
 ## Reglas que no se negocian
