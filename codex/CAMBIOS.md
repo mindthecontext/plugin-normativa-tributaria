@@ -4,6 +4,19 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.57 · 2026-10-04
+
+Treinta circulares antiguas que el saber citaba sin poder leer ahora se pueden leer. Son las más mencionadas por otros documentos del corpus —la Circular 21 de 1991 aparece en 180, la 3 de 1992 en 166— y el SII las publica como imágenes escaneadas, así que hasta hoy el saber decía «existe, aquí está su URL» y nada más. Además, tres circulares que ya estaban en el corpus recuperan 27 relaciones de vigencia que se perdían por cómo el SII escribe una lista de modificaciones.
+
+QUÉ SE PUEDE HACER AHORA QUE ANTES NO: buscarlas por su contenido y abrirlas. Son 1,7 millones de caracteres de circulares de 1975 a 1993 sobre materias que se siguen citando. Lo que NO cambia todavía es su vigencia: el saber sabe que a algunas las modificaron, pero esa parte aún no llega a sus fichas.
+CÓMO SE ELIGIERON, porque no fue por antigüedad: por cuántos documentos del corpus las mencionan. De los 2.010 documentos sin texto, sólo 309 los cita alguien, y 61 se citan diez veces o más. Se rescataron los 30 que vienen en PDF; los demás llegan en otro formato y van en una tanda siguiente.
+LAS 27 RELACIONES RECUPERADAS son un arreglo aparte y afectan a documentos que ya se servían. El SII a veces escribe «Modificada por Circulares: N° 64, del 13 de julio de 2015; N° 1, del 2 de enero de 2015; …» —un verbo y una lista— y el lector no reconocía ninguna por los dos puntos. Tres circulares perdían así 27 modificaciones, entre ellas una derogación.
+Y UNA COMPROBACIÓN NUEVA antes de publicar texto leído por OCR: que las marcas de vigencia que el documento lleva impresas sigan siendo legibles después. Un texto puede quedar perfectamente leíble para una persona y mudo para el saber, y eso es peor que un documento que consta como no leído, porque nadie lo nota.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.56 · 2026-10-04
 
 Cuando un documento de la lista tiene un cambio de criterio verificado por autores académicos, el aviso dice ahora DE QUÉ TRATA ese cambio y no sólo que existe. Y el procedimiento pide dos cosas nuevas: contrastar la ley con la circular que la instruye cuando la pregunta es de régimen, y agotar lo que ya está a la vista antes de declarar que el corpus no tiene algo.
