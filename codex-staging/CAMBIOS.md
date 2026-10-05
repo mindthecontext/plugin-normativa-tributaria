@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.61 · 2026-10-05
+
+Cuando el saber dice que un documento quedó afectado «en todo», ahora distingue si la fuente lo dijo o si nadie lo dijo. Hasta aquí, 45 de las 283 relaciones servidas afirmaban «todo el documento» como un hecho declarado cuando su única fuente era el índice del SII, que en esos casos sólo dice «Modifica Circular N° 17, de 1995» sin una palabra sobre cuánto. Son cuatro estados distinguibles: una parte nombrada, una parte sin precisar, un silencio de la estampa —que nunca puede decir cuánto— y un silencio del índice, que podía precisarlo y no lo hizo.
+
+Lo encontró una respuesta en staging que leyó el cuerpo del PDF y halló «se modifica EN PARTE la Circular N° 17, de 1995» donde la ficha decía «todo el documento». La guarda que cubría esto no sólo dejaba pasar el defecto: lo fijaba, exigiendo que un «total» del índice se afirmara como declarado. La decisión de cuánto pesa cada silencio se tomó midiendo: el índice acota su alcance en el 17% de sus relaciones y la estampa en el 4%, así que el silencio del índice es evidencia débil y el de la estampa no es evidencia.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.60 · 2026-10-05
 
 El saber dejaba de reconocer lo que ya sabía. Desde la versión anterior, 43 circulares anteriores a 2013 tienen estado de vigencia, pero la declaración de límites seguía anunciando que la vigencia de esos años no era derivable — y una respuesta llegó a decir que no podía marcar la Circular 21 de 1991, la más citada del corpus, cuando el dato estaba ahí. Ahora la declaración dice la verdad y con sus cifras: de 2.903 circulares anteriores a 2013, 43 tienen estado y 2.860 no, y en esas 43 lo que se recoge son actos posteriores a 2013.
