@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.59 · 2026-10-05
+
+Cuarenta y tres circulares anteriores a 2013 pasan a decir si siguen rigiendo. Veintitrés estaban sin efecto y el saber lo callaba: la derogación estaba calculada y se descartaba porque el documento derogado era antiguo. Entre ellas, la circular más citada de todo el corpus. Cada una declara que su cobertura es parcial —sólo recoge actos de 2013 en adelante— y tres actos que el grafo describía mal quedan corregidos: dos circulares que salían derogadas por una norma que sólo derogó dos resoluciones, y una que salía derogada entera cuando sólo le reemplazaron un párrafo.
+
+Las relaciones hacia documentos anteriores a 2013 se extraían, se resolvían y se tiraban: `calcular_vigencia` recorría sólo el catálogo moderno. Ahora reciben ficha los que SON destino de un acto —43 de los 2.903 históricos—, y no el resto: dar ficha a todos escribiría «vigente» sobre documentos cuyas cabeceras nadie ha leído. Revisar esas 43 una a una destapó tres errores de alcance que ya estaban en el grafo y que, mientras las relaciones se descartaran, nadie podía ver.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.58 · 2026-10-05
 
 Incorpora la corrección que el SII hizo a la circular 34 de 2018 sin anunciarla: el texto que el saber cita de ese documento es ahora el que el Servicio publica hoy.
