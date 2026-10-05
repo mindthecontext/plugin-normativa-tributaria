@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.58 · 2026-10-05
+
+Incorpora la corrección que el SII hizo a la circular 34 de 2018 sin anunciarla: el texto que el saber cita de ese documento es ahora el que el Servicio publica hoy.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.57 · 2026-10-04
 
 Treinta circulares antiguas que el saber citaba sin poder leer ahora se pueden leer. Son las más mencionadas por otros documentos del corpus —la Circular 21 de 1991 aparece en 180, la 3 de 1992 en 166— y el SII las publica como imágenes escaneadas, así que hasta hoy el saber decía «existe, aquí está su URL» y nada más. Además, tres circulares que ya estaban en el corpus recuperan 27 relaciones de vigencia que se perdían por cómo el SII escribe una lista de modificaciones.
