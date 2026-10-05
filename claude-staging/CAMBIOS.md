@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.62 · 2026-10-05
+
+Conectar el saber desde claude.ai ya no pide pasar por la pantalla técnica de OAuth. El diálogo «Agregar conector personalizado» se quedaba en «No se pudo verificar» y ofrecía «Continuar de todas formas», porque el servidor exigía iniciar sesión incluso para leer la información que dice cómo iniciar sesión. Ahora esa información es pública, como en los demás saberes, y sólo las consultas al saber piden credenciales. Las herramientas, los datos y las respuestas no cambian.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.61 · 2026-10-05
 
 Cuando el saber dice que un documento quedó afectado «en todo», ahora distingue si la fuente lo dijo o si nadie lo dijo. Hasta aquí, 45 de las 283 relaciones servidas afirmaban «todo el documento» como un hecho declarado cuando su única fuente era el índice del SII, que en esos casos sólo dice «Modifica Circular N° 17, de 1995» sin una palabra sobre cuánto. Son cuatro estados distinguibles: una parte nombrada, una parte sin precisar, un silencio de la estampa —que nunca puede decir cuánto— y un silencio del índice, que podía precisarlo y no lo hizo.
