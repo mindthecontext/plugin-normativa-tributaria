@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.63 · 2026-10-05
+
+El texto que el saber cita deja de traer dos cosas que el SII imprimió ENCIMA del documento y no son su texto: las llamadas a nota al pie, que se fusionaban con el número anterior —el corpus servía «el plazo de 906 días» donde el PDF dice «90» con un 6 en volado—, y la marca de agua «Dejada sin efecto», que se intercalaba en medio de las frases. Afecta a 283 de las 868 circulares y a 203 documentos respectivamente. La marca no se pierde: pasa a registrarse como lo que es, un dato sobre el documento, en 41 cabeceras.
+
+Limpiar el texto destapó tres defectos que ya estaban. Un detector de pronunciamientos resolvía el documento citado con el primer número y el primer año del texto, que podían venir de frases distintas: 15 de las 93 relaciones servidas apuntaban al documento equivocado, entre ellas una familia de cinco oficios de 2020. Tres atribuciones de artículo salían de cabeceras que la marca de agua había desplazado. Y un certificado inexistente venía de «certificados24», con la llamada pegada a la palabra.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.62 · 2026-10-05
 
 Conectar el saber desde claude.ai ya no pide pasar por la pantalla técnica de OAuth. El diálogo «Agregar conector personalizado» se quedaba en «No se pudo verificar» y ofrecía «Continuar de todas formas», porque el servidor exigía iniciar sesión incluso para leer la información que dice cómo iniciar sesión. Ahora esa información es pública, como en los demás saberes, y sólo las consultas al saber piden credenciales. Las herramientas, los datos y las respuestas no cambian.
