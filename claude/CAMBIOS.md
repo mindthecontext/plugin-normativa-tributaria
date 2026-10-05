@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.60 · 2026-10-05
+
+El saber dejaba de reconocer lo que ya sabía. Desde la versión anterior, 43 circulares anteriores a 2013 tienen estado de vigencia, pero la declaración de límites seguía anunciando que la vigencia de esos años no era derivable — y una respuesta llegó a decir que no podía marcar la Circular 21 de 1991, la más citada del corpus, cuando el dato estaba ahí. Ahora la declaración dice la verdad y con sus cifras: de 2.903 circulares anteriores a 2013, 43 tienen estado y 2.860 no, y en esas 43 lo que se recoge son actos posteriores a 2013.
+
+Lo encontró la primera prueba en staging de la 0.3.59. Las dos puertas que sirven el documento devolvían el estado correcto; lo que mentía era el aviso de lo no derivable, que FAB-348 no actualizó. Un agente que lee «esto no es derivable» deja de buscar y lo repite con autoridad, así que el modo de fallo es peor que una función que falta. La guarda nueva compara las cifras de esa declaración con las del corpus: si cambian y el texto no, falla.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.59 · 2026-10-05
 
 Cuarenta y tres circulares anteriores a 2013 pasan a decir si siguen rigiendo. Veintitrés estaban sin efecto y el saber lo callaba: la derogación estaba calculada y se descartaba porque el documento derogado era antiguo. Entre ellas, la circular más citada de todo el corpus. Cada una declara que su cobertura es parcial —sólo recoge actos de 2013 en adelante— y tres actos que el grafo describía mal quedan corregidos: dos circulares que salían derogadas por una norma que sólo derogó dos resoluciones, y una que salía derogada entera cuando sólo le reemplazaron un párrafo.
