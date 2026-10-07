@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.64 · 2026-10-07
+
+Añade 8 documentos que el SII publicó desde la versión anterior, y los deja utilizables el mismo día: hasta ahora un documento recién cosechado se servía con su texto pero sin nada derivado de él —no aparecía al buscar por texto, no tenía conclusión y no contaba para las advertencias— hasta la corrida de la madrugada siguiente. En producción, además, el servicio pasa a tener una instancia siempre encendida, así que la primera consulta del día y la conexión desde claude.ai ya no esperan a que el servidor arranque.
+
+Lo de la espera no era cosmético. Medidos 528 arranques en frío en 30 días —17,6 al día, 7,4 s de media y un 13% por encima de 9,5 s— y el que pagaba la espera era quien preguntaba. El daño se concentra en el primer contacto: cuando alguien agrega el conector, claude.ai pide el documento de descubrimiento antes de que el usuario vea la pantalla de acceso, y esa petición es la que despierta el servicio. Medida contra producción el 07-10, tardó 12,0 s en frío y 0,56 s con la instancia ya despierta. La instancia caliente es sólo para producción: staging sigue escalando a cero. De paso la memoria baja de 2 GiB a 1,5, que es lo que sostiene el consumo medido —mediana 307 MiB, pico 837— en vez de un número heredado.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.63 · 2026-10-05
 
 El texto que el saber cita deja de traer dos cosas que el SII imprimió ENCIMA del documento y no son su texto: las llamadas a nota al pie, que se fusionaban con el número anterior —el corpus servía «el plazo de 906 días» donde el PDF dice «90» con un 6 en volado—, y la marca de agua «Dejada sin efecto», que se intercalaba en medio de las frases. Afecta a 283 de las 868 circulares y a 203 documentos respectivamente. La marca no se pierde: pasa a registrarse como lo que es, un dato sobre el documento, en 41 cabeceras.
