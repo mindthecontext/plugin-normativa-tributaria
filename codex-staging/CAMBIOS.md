@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.65 · 2026-10-08
+
+Un documento al que el SII le cambió el número ya no depende de por cuál se pida: antes, el mismo oficio devolvía una ficha completa si se pedía por el número equivocado y una sin texto ni artículos si se pedía por el correcto —que es el que lleva impreso y el que escribe quien lo tiene delante—. Afecta a 568 oficios. Además, esos mismos documentos dejan de irse al final de los listados por recencia: el más reciente de todos salía en el puesto 111 de 116, detrás de oficios de 1996. Y las citas al Código Civil ya no se cortan: el artículo 1567 se registraba como el 156, que existe y trata de otra cosa. Añade 3 documentos nuevos (el oficio 2598 de 2026 y las resoluciones 136 y 137), que por primera vez quedan buscables y con conclusión el mismo día en que entran.
+
+Las tres correcciones vienen del mismo sitio: cuando el índice del SII rotula un oficio con el número de otro documento, lo corregimos leyendo el sello impreso en el propio oficio. Esa corrección llegaba a la ficha pero no a todo lo que cuelga de ella. En `ver_documento` había dos caminos y el del número correcto devolvía antes de tiempo, sin `texto_integro`, sin `anclas` y sin `rige_hoy`; ahora hay uno solo y la traza de por dónde se llegó viaja en `encontrado_por`. En los listados, ordenar por `fecha_acto` mandaba al final a los que la tienen en null —y la tienen a propósito, porque la fecha del índice es de otro documento—; ahora el orden cae a la fecha del sello cuando no hay otra, y la respuesta lo declara en `ordenados_por_su_sello`. La fecha que se CITA no cambia: sigue siendo `fecha_acto` y sigue en null cuando no se sabe, porque en el 44% de los oficios con sello legible las dos fechas no coinciden. En las anclas, el patrón de artículo admitía tres dígitos y el Código Civil pasa de 2.500: 160 anclas pasan a apuntar al artículo correcto y 156 dejan de apuntar a uno equivocado, verificadas una a una contra el texto que las origina.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.64 · 2026-10-07
 
 Añade 8 documentos que el SII publicó desde la versión anterior, y los deja utilizables el mismo día: hasta ahora un documento recién cosechado se servía con su texto pero sin nada derivado de él —no aparecía al buscar por texto, no tenía conclusión y no contaba para las advertencias— hasta la corrida de la madrugada siguiente. En producción, además, el servicio pasa a tener una instancia siempre encendida, así que la primera consulta del día y la conexión desde claude.ai ya no esperan a que el servidor arranque.
