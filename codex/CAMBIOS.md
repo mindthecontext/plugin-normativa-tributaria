@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.67 · 2026-10-09
+
+`ver_celda` deja de servir doce oficios y sirve todos los que caben en el presupuesto de la respuesta: en una celda grande pasa de doce a cien, y dice de dónde sale ese número en vez de llevarlo fijo. Con doce, el oficio que respondía la consulta se quedaba fuera a menudo —medido sobre 325 preguntas con su documento conocido, caía dentro el 34% de las veces en celdas de 26 a 50 oficios y el 22% en las de 51 a 100—, y lo que se perdía no era sólo ese documento: era la celda. Comprobado sobre 26 consultas respondidas dos veces y juzgadas a ciegas por quien no sabía cuál lista era cuál: la vieja resolvió 9 de 26 y la nueva 17, con los ocho casos de diferencia todos en el mismo sentido y ninguno en contra. De las catorce veces que la lista corta dijo «no tengo respaldo para esto», siete eran falsas: el documento existía y no estaba en la lista.
+
+Dos cosas que esto NO arregla, y van dichas en la propia respuesta. Por encima de cien oficios en una misma celda no hay tamaño de lista que alcance, así que ahí lo servido sigue siendo una muestra. Y el orden es por año, no por pertinencia: el documento que responde cae en el percentil 0,29 a 0,43 de ese orden contra 0,50 si fuera al azar, de modo que una celda grande se recorre y no se leen los primeros. El precio es que pesa más: en una celda grande la respuesta de esta herramienta pasa de 23 KB a unos 139 KB, dentro del presupuesto que el servicio declara y siendo ya la herramienta más pesada del saber.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.66 · 2026-10-09
 
 Añade 5 documentos que el SII publicó desde la versión anterior, e incorpora la corrección que el SII hizo a la resolución 119 de 2026 sin anunciarla: el texto que el saber cita de ese documento es ahora el que el Servicio publica hoy.
