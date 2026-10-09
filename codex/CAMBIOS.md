@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.66 · 2026-10-09
+
+Añade 5 documentos que el SII publicó desde la versión anterior, e incorpora la corrección que el SII hizo a la resolución 119 de 2026 sin anunciarla: el texto que el saber cita de ese documento es ahora el que el Servicio publica hoy.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.65 · 2026-10-08
 
 Un documento al que el SII le cambió el número ya no depende de por cuál se pida: antes, el mismo oficio devolvía una ficha completa si se pedía por el número equivocado y una sin texto ni artículos si se pedía por el correcto —que es el que lleva impreso y el que escribe quien lo tiene delante—. Afecta a 568 oficios. Además, esos mismos documentos dejan de irse al final de los listados por recencia: el más reciente de todos salía en el puesto 111 de 116, detrás de oficios de 1996. Y las citas al Código Civil ya no se cortan: el artículo 1567 se registraba como el 156, que existe y trata de otra cosa. Añade 3 documentos nuevos (el oficio 2598 de 2026 y las resoluciones 136 y 137), que por primera vez quedan buscables y con conclusión el mismo día en que entran.
