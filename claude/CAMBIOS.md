@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.68 · 2026-10-09
+
+Arregla lo que la versión anterior rompió sin que nada fallara: con cien oficios, la respuesta de `ver_celda` pesaba 137 KB y Claude Code la guardaba en un fichero en vez de entregarla en la conversación. Ahora la ventana se deriva también contra el tope de salida de herramienta del cliente, medido, y no sólo contra el presupuesto que el servicio declara: en una celda grande sirve 51 oficios de 214 en unos 80 KB, y llega entera. La celda chica no cambia.
+
+Lo encontró la primera consulta de una persona, no una guarda, y por una razón que vale dejar escrita: NADA fallaba. El servicio respondía, el cliente volcaba la respuesta a un fichero, el agente lo leía y contestaba bien. El coste era una lectura extra y un comportamiento distinto según el cliente. Las cuentas del presupuesto se hacían además con las tildes sin escapar, un 7% menos de lo que de verdad viaja, y ahora se pesa como se sirve. Queda dicho lo que esto NO arregla: `buscar_por_ancla` sigue por encima del tope del cliente, y ahí lo que no cabe no es la lista de documentos sino el sobre de la respuesta, de modo que recortar la lista costaría documentos sin arreglar la entrega. Se mide aparte.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.67 · 2026-10-09
 
 `ver_celda` deja de servir doce oficios y sirve todos los que caben en el presupuesto de la respuesta: en una celda grande pasa de doce a cien, y dice de dónde sale ese número en vez de llevarlo fijo. Con doce, el oficio que respondía la consulta se quedaba fuera a menudo —medido sobre 325 preguntas con su documento conocido, caía dentro el 34% de las veces en celdas de 26 a 50 oficios y el 22% en las de 51 a 100—, y lo que se perdía no era sólo ese documento: era la celda. Comprobado sobre 26 consultas respondidas dos veces y juzgadas a ciegas por quien no sabía cuál lista era cuál: la vieja resolvió 9 de 26 y la nueva 17, con los ocho casos de diferencia todos en el mismo sentido y ninguno en contra. De las catorce veces que la lista corta dijo «no tengo respaldo para esto», siete eran falsas: el documento existía y no estaba en la lista.
