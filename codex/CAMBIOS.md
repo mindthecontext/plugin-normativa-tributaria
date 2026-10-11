@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.71 · 2026-10-11
+
+Preguntar qué cambió vuelve a devolver una respuesta y no un fichero. El registro completo ya son 67 versiones y pesaba 132 KB, más de lo que un cliente acepta de una herramienta, así que la respuesta se guardaba en un archivo y había que leerla desde ahí. Un cuarto de ese peso era el mismo registro dos veces: en una lista y repetido en prosa debajo. Ahora llegan las entradas más recientes —33 de las 67, unos 69 KB— y la respuesta dice cuántas trae de cuántas hay y cómo pedir las anteriores: siguiendo esa indicación se recorre el registro completo en tres llamadas, sin huecos y sin repetir ninguna. Lo que no se recorta nunca: en qué versión corre el servicio, desde cuándo hay registro y el aviso de que antes de esa fecha no lo hay.
+
+La 0.3.70 traía este mismo cambio y no se publicó: su propia comprobación la detuvo porque la respuesta seguía pasándose del tope. El servidor medía cuánto pesaba lo que servía con una regla distinta de la que usa el protocolo para enviarlo —un 20% menos en este caso—, así que se acotaba contra una cifra que no era la que viajaba. Ahora pesa lo mismo que viaja y recorta contra eso con margen; la comprobación, además, pesa la respuesta llamando al servicio de verdad en vez de rehacer la cuenta por su cuenta.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.69 · 2026-10-10
 
 Limpia el eje de artículos: 496 anclas atribuían a una ley los artículos de OTRA norma —el título de un convenio de doble imposición nombra el impuesto del que trata, y «Reglamento LIVS» nombra la ley que reglamenta—. Donde más se notaba: de las 62 veces que aparecía el artículo 7 de la Ley de la Renta, 54 eran doctrina de convenios. Buscar por ese artículo devolvía criterios ajenos, con su cita literal y su id, perfectamente verificables y perfectamente equivocados. 54 oficios que sólo interpretaban un convenio o un reglamento dejan de aparecer al buscar por artículo —siguen encontrándose por texto y por situación— y 22 anclas que faltaban aparecen. Añade además 2 documentos que el SII publicó desde la versión anterior (los oficios 2680 y 2681 de 2026) e incorpora la corrección que el SII hizo a la resolución 123 de 2026 sin anunciarla.
