@@ -4,11 +4,31 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.72 · 2026-10-12
+
+Preguntar qué cambió dice ahora por qué trae lo que trae. Si pides más entradas de las que caben en una respuesta, se entrega lo que cabe y se declara que se recortó, por qué, y cuántas caben de verdad — antes se recortaba en silencio y el máximo anunciado prometía un número que nunca llegaba, de modo que volver a pedirlo era el gesto natural y no servía de nada. Y el registro deja de tener un hueco: la versión 0.3.23 vuelve a aparecer, marcada como no servible y con el motivo, después de veinte días en que el listado saltaba de la 0.3.24 a la 0.3.22 sin decir nada. Esa versión existió, se publicó y estuvo en producción un día, así que negarla era peor que explicarla.
+
+Las dos cosas son la misma idea aplicada a la misma puerta: un recorte y un hueco sólo son legítimos si dicen su causa. El registro queda con 70 entradas, cuatro de ellas marcadas como versiones que no deben servirse, y una comprobación nueva impide que vuelva a faltar la entrada de una versión etiquetada.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.71 · 2026-10-11
 
 Preguntar qué cambió vuelve a devolver una respuesta y no un fichero. El registro completo ya son 67 versiones y pesaba 132 KB, más de lo que un cliente acepta de una herramienta, así que la respuesta se guardaba en un archivo y había que leerla desde ahí. Un cuarto de ese peso era el mismo registro dos veces: en una lista y repetido en prosa debajo. Ahora llegan las entradas más recientes —33 de las 67, unos 69 KB— y la respuesta dice cuántas trae de cuántas hay y cómo pedir las anteriores: siguiendo esa indicación se recorre el registro completo en tres llamadas, sin huecos y sin repetir ninguna. Lo que no se recorta nunca: en qué versión corre el servicio, desde cuándo hay registro y el aviso de que antes de esa fecha no lo hay.
 
-La 0.3.70 traía este mismo cambio y no se publicó: su propia comprobación la detuvo porque la respuesta seguía pasándose del tope. El servidor medía cuánto pesaba lo que servía con una regla distinta de la que usa el protocolo para enviarlo —un 20% menos en este caso—, así que se acotaba contra una cifra que no era la que viajaba. Ahora pesa lo mismo que viaja y recorta contra eso con margen; la comprobación, además, pesa la respuesta llamando al servicio de verdad en vez de rehacer la cuenta por su cuenta.
+Es el segundo intento: la 0.3.70 traía lo mismo y está marcada como no servible, con el motivo en su propia entrada. Lo que cambió entre una y otra es cómo se mide: ahora el servidor pesa la respuesta igual que el protocolo la envía, recorta contra eso con margen, y la comprobación llama al servicio de verdad en vez de rehacer la cuenta por su cuenta.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
+## v0.3.70 · 2026-10-11  ·  ⚠ QUEMADA
+
+> **Esta versión no debe servirse.** No llegó a publicarse y nadie la recibió: su propia comprobación la detuvo antes, porque la respuesta seguía pasándose del tope por el que el cliente decide si la entrega en la conversación o la vuelca a un fichero. El servidor medía cuánto pesaba lo que servía con una regla distinta de la que usa el protocolo para enviarlo —un 20% menos en este caso— y se acotaba contra una cifra que no era la que viajaba. Todo lo que traía viaja en la 0.3.71, que además pesa lo mismo que viaja y comprueba el peso llamando al servicio de verdad.
+
+Traía el mismo cambio que la 0.3.71: que preguntar qué cambió devuelva una respuesta y no un fichero.
 
 - Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
 - Skills: `empezar-aqui`, `resolver-un-caso`
@@ -479,6 +499,16 @@ Cuando resuelve un caso con cita, ahora puede preguntarte cómo te resultó —r
 ## v0.3.24 · 2026-09-22
 
 44 oficios que el índice del SII rotula con el número de OTRO documento —el que ellos mismos citan— dejan de contradecirse entre puertas y dejan de fecharse mal. Hasta ahora, encontrar uno buscando por su texto lo devolvía con un identificador y pedir su ficha lo devolvía con otro: quien lo encontraba y después lo pedía recibía otro documento, o nada. Ahora las dos puertas lo nombran igual, y cuando el rótulo del índice difiere del nombre real se entrega también ese rótulo, porque es con el que hay que buscarlo en la fuente para verificarlo. La fecha va con la identidad: la entrada del índice traía también la fecha del otro documento, así que un oficio de 2003 se servía fechado en 1980. Esa fecha deja de darse como suya —se declara como lo que es, la de la entrada del índice— y la fecha citable, la que el propio documento lleva impresa, viaja en su sello. Y uno de ellos deja de llamarse «oficio del año 3003»: su firma traía esa errata, mientras su cabecera, el índice del SII y el catálogo decían los tres 2003. Los demás oficios no cambian.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
+## v0.3.23 · 2026-09-22  ·  ⚠ QUEMADA
+
+> **Esta versión no debe servirse.** Esta versión estuvo servida y hacía daño: al renombrar también los ficheros, el servidor quedó buscando nombres que ya no existían y los 41 oficios se entregaban como «sin texto» teniéndolo en disco. El texto se guarda con el número del índice a propósito, porque es con el que se descargó. Se revirtió el mismo día, y aun así siguió en producción un día entero, porque revertir el código no mueve lo que cada entorno sirve. Nada de esta versión debe volver: lo que resuelve el problema de verdad es la 0.3.24, que deja el identificador del índice en el disco y sirve la identidad real por encima, de modo que las dos formas de pedir el documento funcionan. Esta entrada se escribió el 12-10-2026: al revertir se borró del registro, y durante veinte días el registro saltó de la 0.3.24 a la 0.3.22 sin decir por qué.
+
+41 oficios recuperan el número y el año que declara su propio documento. Se servían con el identificador que el índice del SII les puso, que en estos casos es el del oficio al que citan y no el suyo: quien pedía el oficio 1.281 de 1980 recibía el texto del 5.138 de 2003. El saber ya había leído el sello de cada uno y guardaba la corrección sin aplicarla; cada una se contrastó además contra la página del SII antes de usarla, y tres se descartaron por contradecirla. Con esto, los documentos con la advertencia de procedencia no confirmada bajan de 47 a 23.
 
 - Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
 - Skills: `empezar-aqui`, `resolver-un-caso`
