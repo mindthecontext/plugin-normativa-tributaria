@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.73 · 2026-10-13
+
+Las respuestas vuelven a llegar en la conversación en vez de guardarse en un archivo, y no sólo la de «qué cambió»: también las de buscar, abrir un artículo, ver los oficios de una celda y seguir un artículo concreto. Seis de las ocho puertas que se consultan a diario venían entregándose como fichero —entre ellas la entrada principal del saber, la que se usa cuando la pregunta describe una situación en palabras corrientes— y nada lo advertía: el cliente lo guardaba, se leía desde ahí y la respuesta llegaba igual, a costa de un paso extra y de un trato distinto del dato. Ahora cada herramienta declara de antemano cuánto puede devolver, y eso basta para que no se desvíe.
+
+Las cuatro versiones anteriores persiguieron lo mismo acortando las respuestas, y la causa era otra: el límite que las desviaba no es el que se estaba midiendo, y no se resuelve acortando sino declarando. El tamaño que se declara —150.000 caracteres— no es el máximo que permite ese cliente, sino lo que acepta el más estrecho de los que usamos, de modo que la cifra sea una promesa comprobable y no un permiso. Ninguna respuesta de hoy llega a dos tercios de ella.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.72 · 2026-10-12
 
 Preguntar qué cambió dice ahora por qué trae lo que trae. Si pides más entradas de las que caben en una respuesta, se entrega lo que cabe y se declara que se recortó, por qué, y cuántas caben de verdad — antes se recortaba en silencio y el máximo anunciado prometía un número que nunca llegaba, de modo que volver a pedirlo era el gesto natural y no servía de nada. Y el registro deja de tener un hueco: la versión 0.3.23 vuelve a aparecer, marcada como no servible y con el motivo, después de veinte días en que el listado saltaba de la 0.3.24 a la 0.3.22 sin decir nada. Esa versión existió, se publicó y estuvo en producción un día, así que negarla era peor que explicarla.
