@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.75 · 2026-10-13
+
+Cuando la respuesta trae sólo una parte de los documentos de un artículo y ofrece cómo pedir los siguientes, esa indicación ya no se salta ninguno. Antes apuntaba al punto donde habría quedado si hubieran cabido todos los que estaban previstos, y no al punto donde de verdad se quedó: en el artículo 31 de la Ley de la Renta, seguir la indicación al pie de la letra dejaba fuera veinte de sus veintisiete circulares. No avisaba de nada, y lo que se obtenía al final se leía igual que un recorrido completo.
+
+Lo encontró un revisor externo mientras comprobaba otra cosa. Queda una comprobación que recorre de principio a fin los documentos de un artículo siguiendo esa misma indicación, y exige verlos todos sin repetir ninguno: novecientos nueve documentos en el artículo que se usa de prueba.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.74 · 2026-10-13
 
 Preguntar qué ha resuelto el SII sobre un artículo concreto devuelve ahora unos ochenta pronunciamientos en vez de cincuenta y uno. No es que antes sobraran: es que el límite contra el que se recortaba estaba mal medido, y cincuenta y uno dejaba fuera documentos que sí respondían. Sobre las preguntas con las que se midió esto, el documento que resuelve pasa de estar presente el 39% de las veces al 63% en los artículos con mucha doctrina acumulada, que son justo donde la lista larga hace falta. El orden sigue siendo por año y no por pertinencia, así que en un artículo grande hay que recorrer y no leer los primeros — la respuesta lo dice.
