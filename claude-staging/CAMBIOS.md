@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.77 · 2026-10-14
+
+Un oficio dejaba de confirmar su propio criterio, y la fecha dudosa deja de servirse también al abrir un documento. Lo primero: cuando el índice del SII rotula un oficio con el número de otro, el pie de firma del propio documento —que lleva su número verdadero— se colaba como destino de la remisión, de modo que la ficha mostraba «confirma el criterio de» apuntando al documento que se estaba leyendo, con su cita literal. Esa remisión desaparece y queda declarada como lo que es: una confirmación cuyo destino no se puede identificar. Lo segundo: los cincuenta y ocho sellos incoherentes que la versión anterior dejó de presentar como fecha citable seguían apareciendo enteros al abrir el documento, que es justo donde alguien copia la fecha. Y entra en los datos lo que dos versiones anteriores prometieron y no había llegado: la lista completa de casos de uso de cada oficio y de dónde sale cada etiqueta.
+
+LA REMISIÓN FALSA la encontró una prueba externa abriendo el documento y leyendo la cita, no una comprobación nuestra. Es una relación en todo el corpus, y lo que la hacía invisible es que todo lo demás estaba bien: el efecto, la cita literal y la banda. Queda una comprobación que exige que ninguna declaración de criterio apunte al documento que la emite, comparando contra el número que el documento lleva impreso y no contra el que el índice le puso. LA FECHA AL ABRIR EL DOCUMENTO venía de una segunda copia de la regla dentro de esa puerta. El arreglo de la versión anterior alcanzaba a las otras tres puertas y no a ésta. Ahora hay un solo sitio que arma ese campo, y una comprobación que lo exige. LOS CASOS DE USO: el código de dos versiones atrás ya sabía servir la lista entera, pero los datos que la contienen sólo se regeneran cuando el Servicio publica algo nuevo, y no ha publicado desde el 12 de octubre. Quien filtraba por un caso de uso seguía recibiendo sólo los documentos en que ese caso había ganado por prioridad. Ahora los datos están.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.76 · 2026-10-14
 
 Tres cosas que el saber ya sabía y no miraba antes de afirmar. Una ficha podía servir la conclusión de un oficio junto al texto de otro: pasaba en un documento de 568 con el número corregido, y las dos mitades se leían perfectamente creíbles por separado, que es lo que la hacía peligrosa. Cincuenta y ocho oficios presentaban como «la fecha citable, la que verá quien abra el PDF» un sello que el propio registro tenía marcado como incoherente —el número no era el suyo, o la fecha era anterior al documento—; ahora esos declaran que la fecha no se puede derivar, dicen qué se leyó y remiten al PDF. Y deja de pedirse una impresión después de cada respuesta.
