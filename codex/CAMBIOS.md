@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.76 · 2026-10-14
+
+Tres cosas que el saber ya sabía y no miraba antes de afirmar. Una ficha podía servir la conclusión de un oficio junto al texto de otro: pasaba en un documento de 568 con el número corregido, y las dos mitades se leían perfectamente creíbles por separado, que es lo que la hacía peligrosa. Cincuenta y ocho oficios presentaban como «la fecha citable, la que verá quien abra el PDF» un sello que el propio registro tenía marcado como incoherente —el número no era el suyo, o la fecha era anterior al documento—; ahora esos declaran que la fecha no se puede derivar, dicen qué se leyó y remiten al PDF. Y deja de pedirse una impresión después de cada respuesta.
+
+LO DE LA CONCLUSIÓN lo encontró un árbitro sintético que clasificaba otra cosa, y lo encontró porque tenía que citar el pasaje que justificaba cada decisión. El identificador `oficio:2000:1135` es dos cosas a la vez en el registro de identidades corregidas, y de ahí salía el cruce. Donde dos documentos se disputan un mismo número, las dos fichas lo declaran ahora y desde cualquiera se llega a la otra, porque los dos tienen razón: uno lo lleva impreso en su sello y al otro se lo puso el índice del SII. LO DE LOS SELLOS no corrige la lectura, que es otro trabajo: deja de afirmar lo que no se puede verificar. Tres sellos que parecían incoherentes y no lo son siguen sirviéndose — son documentos cuya identidad ya estaba corregida, y comparar su sello contra el número del índice es comparar contra lo que estaba mal. Ningún documento pierde el año con el que se filtra. LA RECOGIDA DE IMPRESIONES se cierra por decisión, y la mecánica queda entera para poder retomarla. Medido antes de cerrarla: estaba preguntando tras cada respuesta y una sesión completa de un usuario real no dejaba ningún registro.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.75 · 2026-10-13
 
 Cuando la respuesta trae sólo una parte de los documentos de un artículo y ofrece cómo pedir los siguientes, esa indicación ya no se salta ninguno. Antes apuntaba al punto donde habría quedado si hubieran cabido todos los que estaban previstos, y no al punto donde de verdad se quedó: en el artículo 31 de la Ley de la Renta, seguir la indicación al pie de la letra dejaba fuera veinte de sus veintisiete circulares. No avisaba de nada, y lo que se obtenía al final se leía igual que un recorrido completo.
