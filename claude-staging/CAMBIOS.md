@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.79 · 2026-10-15
+
+Añade los 2 documentos que el SII publicó esta semana —el oficio 2695 y el 2716, ambos de 2026— y los deja buscables por todas las vías, no sólo por sus palabras: con la descripción en lenguaje corriente que permite encontrarlos describiendo un problema, con su eje temático y dentro de los índices semánticos. Además, doscientos noventa y cuatro documentos que ya estaban servidos ganan la etiqueta temática que les faltaba, y ninguno pierde la suya.
+
+LA CLASIFICACIÓN TEMÁTICA NO SE REGENERA SOLA, y ése es el motivo de que 294 documentos la ganen hoy de golpe: el paso que la produce no forma parte de la corrida diaria, así que cada documento incorporado desde la última vez entraba sin ella. Queda anotado como trabajo pendiente; lo de hoy la pone al día, no arregla la causa. DE LOS DOS OFICIOS NUEVOS uno recibió etiqueta y el otro no: su consulta no coincide con ninguno de los patrones reconocidos, que es un resultado legítimo y distinto de no haberlo mirado. Ahora se distinguen.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.78 · 2026-10-14
 
 Seiscientos ocho oficios dejan de presentar como su fecha un día que nadie publicó. El índice del SII no trae la fecha de esos documentos —pone el día 1 del mes, o el 1 de enero cuando tampoco trae el mes— y el propio catálogo lo tiene anotado como marcador; aun así, setenta y cuatro fichas lo servían en el campo que cualquiera lee como la fecha del documento. Un «1 de enero de 1997» no se distingue de una fecha real, y es plausible para un oficio de principios de año, así que quien lo citara no tenía cómo notarlo. Ahora ese campo queda vacío diciendo por qué, y el año —que sí consta— se entrega aparte declarado como lo único que el índice afirma.
