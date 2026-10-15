@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.78 · 2026-10-14
+
+Seiscientos ocho oficios dejan de presentar como su fecha un día que nadie publicó. El índice del SII no trae la fecha de esos documentos —pone el día 1 del mes, o el 1 de enero cuando tampoco trae el mes— y el propio catálogo lo tiene anotado como marcador; aun así, setenta y cuatro fichas lo servían en el campo que cualquiera lee como la fecha del documento. Un «1 de enero de 1997» no se distingue de una fecha real, y es plausible para un oficio de principios de año, así que quien lo citara no tenía cómo notarlo. Ahora ese campo queda vacío diciendo por qué, y el año —que sí consta— se entrega aparte declarado como lo único que el índice afirma.
+
+NO SE BORRA LA FECHA ENTERA, y la diferencia importa: de los setenta y cuatro, sólo dos llevan además un sello creíble en su propio texto, de modo que anularla sin más habría dejado a setenta y dos documentos sin ninguna forma de datarse y sin año con el que filtrarlos — peor que el problema que se venía a resolver. Lo que se inventa es el día; el año es un hecho que el índice publica. Por eso se declara la precisión en vez de negar el dato, y ninguno de los seiscientos siete que se sirven pierde su año. El que quedaba sin ninguno resultó ser un documento retirado del servicio desde hace semanas.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.77 · 2026-10-14
 
 Un oficio dejaba de confirmar su propio criterio, y la fecha dudosa deja de servirse también al abrir un documento. Lo primero: cuando el índice del SII rotula un oficio con el número de otro, el pie de firma del propio documento —que lleva su número verdadero— se colaba como destino de la remisión, de modo que la ficha mostraba «confirma el criterio de» apuntando al documento que se estaba leyendo, con su cita literal. Esa remisión desaparece y queda declarada como lo que es: una confirmación cuyo destino no se puede identificar. Lo segundo: los cincuenta y ocho sellos incoherentes que la versión anterior dejó de presentar como fecha citable seguían apareciendo enteros al abrir el documento, que es justo donde alguien copia la fecha. Y entra en los datos lo que dos versiones anteriores prometieron y no había llegado: la lista completa de casos de uso de cada oficio y de dónde sale cada etiqueta.
