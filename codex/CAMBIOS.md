@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.81 · 2026-10-16
+
+Añade 3 documentos que el SII publicó desde la versión anterior (la circular 39 de 2026, la circular 40 de 2026 y el oficio 2752 de 2026).
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.80 · 2026-10-15
 
 El saber dice ahora a cuántos oficios NO llega la vía que traduce «me pasó esto». De los 7.826 del catálogo, 2.901 no tienen escrita su descripción en lenguaje corriente, y ésa es la ruta que convierte una situación contada con palabras propias al vocabulario de la norma. Esos 2.901 no desaparecen —se encuentran por su texto y por el artículo que tocan— pero no los alcanza quien describe su caso, que es justamente la entrada recomendada. Hasta hoy eso no se declaraba en ninguna parte: una búsqueda que no los traía se leía igual que si no existieran.
