@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.80 · 2026-10-15
+
+El saber dice ahora a cuántos oficios NO llega la vía que traduce «me pasó esto». De los 7.826 del catálogo, 2.901 no tienen escrita su descripción en lenguaje corriente, y ésa es la ruta que convierte una situación contada con palabras propias al vocabulario de la norma. Esos 2.901 no desaparecen —se encuentran por su texto y por el artículo que tocan— pero no los alcanza quien describe su caso, que es justamente la entrada recomendada. Hasta hoy eso no se declaraba en ninguna parte: una búsqueda que no los traía se leía igual que si no existieran.
+
+VA EN LA PROCEDENCIA DE TODAS LAS RESPUESTAS Y NO EN LA FICHA DE CADA DOCUMENTO, y la diferencia es el punto: quien sufre un oficio sin descripción es QUIEN NO LO ENCUENTRA, y ése nunca abre su ficha. Ponerlo en el documento se lo contaría sólo a quien ya llegó. LA CIFRA SE CUENTA DEL CORPUS EN CADA ARRANQUE, no está escrita en el texto. Es la lección de la declaración vecina sobre la vigencia de las circulares antiguas: se redactó a mano con sus números, el corpus cambió, y el saber pasó a negar lo que ya sabía —llegó a decir que no podía marcar la Circular 21 de 1991 cuando sí podía— hasta que una prueba lo cazó. El día que no falte ninguna, la frase lo dirá en positivo. POR QUÉ NO SE ESCRIBEN SOLAS, dicho para que no se lea como un descuido: cada descripción sale de leer el documento entero, con una banda de longitud y un validador que rechaza el lote si algo no cuadra. No es un paso que la cosecha pueda hacer de noche, y si algún día lo es será midiendo antes si la calidad aguanta.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.79 · 2026-10-15
 
 Añade los 2 documentos que el SII publicó esta semana —el oficio 2695 y el 2716, ambos de 2026— y los deja buscables por todas las vías, no sólo por sus palabras: con la descripción en lenguaje corriente que permite encontrarlos describiendo un problema, con su eje temático y dentro de los índices semánticos. Además, doscientos noventa y cuatro documentos que ya estaban servidos ganan la etiqueta temática que les faltaba, y ninguno pierde la suya.
