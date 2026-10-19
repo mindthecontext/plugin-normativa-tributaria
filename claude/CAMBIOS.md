@@ -4,6 +4,24 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.84 · 2026-10-19
+
+El saber ya sabe cuándo su propio identificador no es el del documento, y ha empezado a corregirlo. LO MÁS IMPORTANTE DE ESTA VERSIÓN: dieciséis oficios se servían con el CUERPO DE OTRO oficio y ahora sirven el suyo. Quien pedía el oficio 3809 de 1993 recibía el texto de otro documento distinto, sin que nada lo advirtiera. Son el oficio 3809 de 1993, el oficio 2821 de 1994, el oficio 3056 de 1994, el oficio 3180 de 1995, el oficio 3621 de 1995, el oficio 3654 de 1995, el oficio 215 de 1997, el oficio 483 de 1997, el oficio 1135 de 2000, el oficio 3847 de 2001, el oficio 5052 de 2001, el oficio 3030 de 2002, el oficio 3688 de 2002, el oficio 3788 de 2002, el oficio 432 de 2002 y el oficio 1545 de 2003. LO SEGUNDO: 356 oficios que se servían con un identificador provisional —«sn-marzo07», porque el índice del SII no publicaba su número— pasan a su número real. El texto de cada uno sigue siendo el mismo: lo que cambia es el nombre por el que se le pregunta. Si citabas uno de ellos por su clave vieja, esa clave ya no responde. Y LOS QUE NO DEJAN LEER SU SELLO SE DICEN: de los oficios con texto, los que llevan impreso un número o un año distintos del que los nombra vienen marcados en el sello que acompaña a cada documento, con lo que el propio oficio se atribuye, de modo que quien cite uno pueda ver la discrepancia antes de escribirla. Y de los que no dejan leerlo el saber dice que NO SABE: no es que coincidan, es que nadie lo ha comprobado, y las dos cosas se contaban igual hasta aquí. EL RESTO, en números: 133 documentos que el catálogo ya listaba y de los que no teníamos el texto ahora lo tienen; entran 16 oficios nuevos al catálogo; y a 124 el SII les retocó el texto sin cambiar de documento. De 7.837 oficios catalogados, 7.624 confirman su propio identificador con el sello impreso en su texto. POR QUÉ 0.3.84 Y NO 0.3.83: la 0.3.83 se etiquetó y su publicación se detuvo en la verificación de staging, así que NO llegó a ningún cliente — el paquete seguía en 0.3.81. Una etiqueta empujada no se mueve, de modo que esa versión queda quemada y su contenido es éste. Lo que la detuvo era un caso de prueba que preguntaba por uno de los 356 oficios renombrados, y ahora hay una comprobación local que lo habría visto en dos décimas de segundo.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
+## v0.3.83 · 2026-10-19  ·  ⚠ QUEMADA
+
+> **Esta versión no debe servirse.** La etiqueta se empujó y su publicación se detuvo en la verificación de staging, así que nadie llegó a recibirla: el paquete seguía en la 0.3.81. No es que su contenido fuera malo —todo viaja en la 0.3.84—. La detuvo uno de los treinta casos de funcionamiento, que preguntaba por `oficio:1998:sn-may06`: una de las 356 claves que esta misma versión renombraba. Ese fichero se ejecuta contra el servicio DESPLEGADO, así que el fallo no aparecía al correr las guardas en local, sino en la nube y con la etiqueta ya puesta. Desde la 0.3.84 hay una comprobación local que lo habría visto en dos décimas de segundo (NOR-219).
+
+Traía el mismo cambio que la 0.3.84, que es la que hay que servir.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.81 · 2026-10-16
 
 Añade 3 documentos que el SII publicó desde la versión anterior (la circular 39 de 2026, la circular 40 de 2026 y el oficio 2752 de 2026).
