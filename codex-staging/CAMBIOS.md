@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.87 · 2026-10-20
+
+Añade cuatro documentos que el SII publicó en octubre: la Circular N° 41 del 15-10 y las Resoluciones Exentas N° 139 y 140 del 16 y N° 141 del 19 de octubre. También incorpora la corrección que el SII hizo a la Resolución Exenta N° 119, del 03-09-2026, sin anunciarla. Y DOS DOCUMENTOS DEJAN DE TENER UNA CLAVE QUE NUNCA FUE SUYA. No se pierde nada: el saber los seguía bajo un identificador mal derivado y ahora los sirve por el que les corresponde. `oficio:1996:sn-ene131` es el Oficio N° 4.432, del 13.12.1994 —el año 1996 no salía ni del índice, que es de 1995, ni del documento, que se firma con esa fecha— y se pide como `oficio:1994:4432`. `oficio:1997:263` es el Oficio N° 2.630, del 31.10.1997, que el SII publica en dos páginas: una en facsímil, con una cabecera que es de otro oficio, y otra transcrita; se pide como `oficio:1997:2630`. Quien pida una de las claves viejas no recibe un «no encontrado»: recibe adónde ir y por qué, con el documento entero bajo su clave buena.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.86 · 2026-10-19
 
 Doscientos veinte documentos dejan de recibir una explicación que describía otro caso. CUANDO EL SABER NO PUEDE DAR LA FECHA DE UN OFICIO, dice por qué. A 227 oficios les daba este motivo: «el índice del SII rotula este oficio con el número de otro, y esa entrada trae también la fecha del otro». Para siete es verdad. Para los otros 220 no: el SII publicó esos documentos SIN NÚMERO, y el identificador sale del nombre de su página —`sn-Diciembre14` es la entrada de diciembre, no una referencia a ningún oficio—. Ahora cada uno recibe el motivo de su caso. POR QUÉ IMPORTA MÁS QUE UN TEXTO MAL PUESTO. El motivo equivocado le decía a quien lee que la fecha servida es la de OTRO documento. Quien se lo creía descartaba un dato correcto; quien no, no sabía a cuál de los tres campos de la ficha hacerle caso. Un hueco se nota; una explicación falsa, no. LO QUE NO CAMBIA, y conviene decirlo: la fecha de esos 220 sigue sin poder derivarse, y por la razón que siempre tuvo —el índice del SII no publica el día, pone el 1 del mes—. Lo único que estaba mal era la explicación. Si el documento lleva su fecha impresa, sigue estando en `sello_del_documento`. Y el motivo ya no manda mirar un campo que esa respuesta no trae: decía `id_en_el_indice_del_sii`, que se emite en otras puertas, donde el campo se llama `id_segun_indice`.
