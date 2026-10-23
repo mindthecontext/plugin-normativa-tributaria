@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.92 · 2026-10-22
+
+Veinticuatro documentos cambian de cómo se identifican o de cómo se describen, y conviene mirarlos si citaste alguno. DIECISIETE pasan a servirse con su NÚMERO en vez de con el nombre de su página: el que antes era «Oficio sn-ja3647 de 1995» es el oficio 633 de 1995, y el que era «Oficio sn-4139_88 de 1998» es el 4139 de 1988. El identificador viejo sigue funcionando y la ficha dice por cuál se encontró, así que una cita anterior no se rompe — pero la correcta es la nueva. SIETE pasan a describirse con la materia de su propia página, porque el índice del SII los describía con la de OTRO documento: el oficio 553 de 1994 figuraba como una consulta sobre donaciones al Teatro Municipal de Chillán y trata de empresas constructoras y del artículo 27 bis del DL 825. Eso afectaba a la búsqueda: quien buscaba esas donaciones recibía un oficio sobre constructoras. La descripción del índice se conserva en la ficha, dicha como tal. Y entra 1 documento nuevo del SII, el oficio 4139 de 1988.
+
+Esta entrada se escribió a mano. La que `anotar_cambio.py` derivó para la 0.3.91 decía «la corrección que el SII hizo a el oficio sn-4139_88 de 1998 sin anunciarla», y eso era FALSO: el SII no corrigió nada — nuestro lector recuperó el número del documento y su clave cambió. Es el defecto de NOR-241, que atribuye a la fuente lo que hacemos nosotros, y es la tercera vez en la semana. Además omitía los 24 documentos que de verdad cambian, que es lo que un changelog existe para decir. La 0.3.91 no llegó a producción; esta versión la reemplaza y no aporta otro cambio de datos.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.91 · 2026-10-22
 
 Añade 1 documento que el SII publicó desde la versión anterior (el oficio 4139 de 1988), e incorpora la corrección que el SII hizo a el oficio sn-4139_88 de 1998 sin anunciarla: el texto que el saber cita de ese documento es ahora el que el Servicio publica hoy.
