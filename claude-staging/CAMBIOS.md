@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.93 · 2026-10-23
+
+La ficha de un oficio dice ahora QUÉ FUENTES coinciden en su número, no sólo de qué renglón se leyó el sello. En el campo `de_donde_sale_el_numero` verás una de tres cosas: que el índice del SII lo numera y el propio documento dice lo mismo —dos lecturas, de sitios distintos, que coinciden—; que el índice NO lo numeró y el número sale del sello del propio documento, sin que nada más lo haya confirmado nunca, que le pasa a 195 oficios; o que el índice lo numera con un número DISTINTO del que el documento lleva impreso, y servimos el del documento. Son tres grados de confianza que hasta ahora se servían iguales. No cambia ningún identificador ni ningún texto: cambia lo que la ficha te cuenta sobre ellos, para que decidas tú.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.92 · 2026-10-22
 
 Veinticuatro documentos cambian de cómo se identifican o de cómo se describen, y conviene mirarlos si citaste alguno. DIECISIETE pasan a servirse con su NÚMERO en vez de con el nombre de su página: el que antes era «Oficio sn-ja3647 de 1995» es el oficio 633 de 1995, y el que era «Oficio sn-4139_88 de 1998» es el 4139 de 1988. El identificador viejo sigue funcionando y la ficha dice por cuál se encontró, así que una cita anterior no se rompe — pero la correcta es la nueva. SIETE pasan a describirse con la materia de su propia página, porque el índice del SII los describía con la de OTRO documento: el oficio 553 de 1994 figuraba como una consulta sobre donaciones al Teatro Municipal de Chillán y trata de empresas constructoras y del artículo 27 bis del DL 825. Eso afectaba a la búsqueda: quien buscaba esas donaciones recibía un oficio sobre constructoras. La descripción del índice se conserva en la ficha, dicha como tal. Y entra 1 documento nuevo del SII, el oficio 4139 de 1988.
@@ -16,7 +24,9 @@ Esta entrada se escribió a mano. La que `anotar_cambio.py` derivó para la 0.3.
 
 ## v0.3.91 · 2026-10-22
 
-Añade 1 documento que el SII publicó desde la versión anterior (el oficio 4139 de 1988), e incorpora la corrección que el SII hizo a el oficio sn-4139_88 de 1998 sin anunciarla: el texto que el saber cita de ese documento es ahora el que el Servicio publica hoy.
+Entra 1 documento que el SII publicó desde la versión anterior, el oficio 4139 de 1988. Esta versión no llegó a producción: la reemplazó la 0.3.92, que cuenta lo que de verdad cambió.
+
+ESTE RESUMEN SE CORRIGIÓ A MANO. El derivado decía «incorpora la corrección que el SII hizo a el oficio sn-4139_88 de 1998 sin anunciarla», y era falso: el SII no corrigió nada — nuestro lector recuperó el número del documento y su clave cambió de oficio:1998:sn-4139_88 a oficio:1988:4139. Es NOR-241, que atribuye a la fuente lo que hacemos nosotros.
 
 - Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
 - Skills: `empezar-aqui`, `resolver-un-caso`
