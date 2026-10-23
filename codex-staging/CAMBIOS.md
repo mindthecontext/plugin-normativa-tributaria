@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.91 · 2026-10-22
+
+Añade 1 documento que el SII publicó desde la versión anterior (el oficio 4139 de 1988), e incorpora la corrección que el SII hizo a el oficio sn-4139_88 de 1998 sin anunciarla: el texto que el saber cita de ese documento es ahora el que el Servicio publica hoy.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.90 · 2026-10-22
 
 Sin cambios para quien lo usa.
@@ -22,7 +30,12 @@ Añade 1 documento que el SII publicó desde la versión anterior (la resolució
 
 ## v0.3.88 · 2026-10-22
 
-Incorpora la corrección que el SII hizo a el oficio 1207 de 2008 sin anunciarla: el texto que el saber cita de ese documento es ahora el que el Servicio publica hoy.
+El oficio 1207 de 2008 deja de entregar texto: la página que el SII publica hoy bajo esa dirección sirve el cuerpo de OTRO oficio, el N° 1.582 del 29-07-2008. Su ficha se conserva —número, fecha, materia y referencia legal— y pierde el texto y el enlace. Y mejora la lectura de identidad: 55 oficios más pueden verificarse contra el sello de su propio documento.
+
+ESTA ENTRADA SE REESCRIBIÓ EL 22-10-2026, y la original decía lo contrario: «incorpora la corrección que el SII hizo a el oficio 1207 de 2008 sin anunciarla: el texto que el saber cita de ese documento es ahora el que el Servicio publica hoy». Era falso en los dos extremos. El SII no corrigió ese documento, y el saber NO cita el texto que el Servicio publica hoy — lo retiró precisamente porque es de otro oficio.
+QUÉ PASÓ DE VERDAD, verificado. El snapshot del 04-07-2008 de esa misma página del SII sirve el 1207 auténtico, sobre donaciones con fines culturales, que es lo que su ficha dice. En algún momento posterior el SII sobrescribió esa página con el cuerpo del 1.582. No es una corrección del Servicio: es una página rota en la fuente, y hay prueba fechada.
+QUÉ SIGNIFICA PARA QUIEN LO USA. Preguntar por el oficio 1207 de 2008 devuelve su ficha sin texto, en vez de devolver el texto de otro oficio con el encabezado equivocado. Es menos información y es información correcta. El 1.582 sigue entregándose completo bajo su propio identificador.
+POR QUÉ LA ENTRADA ORIGINAL SALIÓ ASÍ. La escribe `anotar_cambio.py`, que ve que un documento cambió de texto y lo atribuye al SII sin saber si fue el Servicio quien lo corrigió o nosotros quienes lo retiramos. Es la segunda vez en dos días que hay que reescribir a mano una entrada suya por el mismo motivo. Queda en NOR-241.
 
 - Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
 - Skills: `empezar-aqui`, `resolver-un-caso`
