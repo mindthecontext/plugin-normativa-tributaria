@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.94 · 2026-10-24
+
+Añade 6 documentos que el SII publicó desde la versión anterior y incorpora la corrección que el SII hizo al oficio 933 de 2004 sin anunciarla: el texto que el saber cita de ese documento es ahora el que el Servicio publica hoy.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.93 · 2026-10-23
 
 La ficha de un oficio dice ahora QUÉ FUENTES coinciden en su número, no sólo de qué renglón se leyó el sello. En el campo `de_donde_sale_el_numero` verás una de tres cosas: que el índice del SII lo numera y el propio documento dice lo mismo —dos lecturas, de sitios distintos, que coinciden—; que el índice NO lo numeró y el número sale del sello del propio documento, sin que nada más lo haya confirmado nunca, que le pasa a 195 oficios; o que el índice lo numera con un número DISTINTO del que el documento lleva impreso, y servimos el del documento. Son tres grados de confianza que hasta ahora se servían iguales. No cambia ningún identificador ni ningún texto: cambia lo que la ficha te cuenta sobre ellos, para que decidas tú.
