@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.97 · 2026-10-26
+
+Sin cambios para quien lo usa.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.96 · 2026-10-26
 
 La procedencia dice de qué SERIE habla la cifra de descripciones. Hasta ahora contaba sólo contra el catálogo de oficios y lo declaraba como si fuera todo el corpus: con circulares descritas habría afirmado una carencia sin mencionar que una serie entera quedó cubierta. Las circulares de serie periódica —tablas de UF, reajustes, escalas— se declaran aparte: no se describen a propósito y se sirven por `buscar_dato_periodico`. El corpus servido no cambia en esta versión.
