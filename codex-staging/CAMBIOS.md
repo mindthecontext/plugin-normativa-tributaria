@@ -4,9 +4,17 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.98 · 2026-10-26
+
+Corrige el registro de la 0.3.97, que decía «Sin cambios para quien lo usa» sobre la versión que hizo encontrables 301 circulares por significado. Lo escribió la corrida por defecto y nadie lo revisó antes de etiquetar. El paquete de la 0.3.97 ya salió con el texto equivocado y eso no se puede reescribir; lo que sí se arregla es que de aquí en adelante el registro cuente lo que pasó. Sin cambios funcionales.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.97 · 2026-10-26
 
-Sin cambios para quien lo usa.
+Las circulares se encuentran por significado. Entran 2.758 descripciones en lenguaje corriente: 2.457 de oficios que estaban escritas sin consolidar, y 301 de circulares, que es la primera vez que una serie distinta de los oficios tiene descripción. Una pregunta hecha con palabras propias ya puede traer una circular, no sólo por su texto literal o por el artículo que cita. Los oficios sin descripción bajan de 2.913 a 456. Las 568 circulares de serie periódica —tablas de UF, reajustes, escalas— quedan fuera a propósito: dicen lo mismo con otros números y se sirven por `buscar_dato_periodico`.
 
 - Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
 - Skills: `empezar-aqui`, `resolver-un-caso`
