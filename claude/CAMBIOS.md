@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.99 · 2026-10-27
+
+Cuando una respuesta se apoya en un criterio del SII, el saber revisa ahora si un tribunal resolvió lo contrario, y lo dice con tribunal, rol y fecha. Antes el camino hacia la jurisprudencia llevaba a los fallos más recientes del artículo, que rara vez son los del caso que se está resolviendo. Cambian cuatro cosas: `buscar` devuelve `tribunales_sobre_este_caso` con la llamada ya armada; `buscar_por_ancla` indica en qué orden vienen los fallos y cuáles son los del caso; `buscar_jurisprudencia` con `materia` pesa cada palabra por lo rara que es, desempata por lo más reciente y conserva la materia al pasar de página; y el procedimiento de `resolver-un-caso` gana un paso que obliga a mirarlo antes de cerrar. Añade además la resolución 147 de 2026, que el SII publicó el 26 de octubre.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.98 · 2026-10-26
 
 Corrige el registro de la 0.3.97, que decía «Sin cambios para quien lo usa» sobre la versión que hizo encontrables 301 circulares por significado. Lo escribió la corrida por defecto y nadie lo revisó antes de etiquetar. El paquete de la 0.3.97 ya salió con el texto equivocado y eso no se puede reescribir; lo que sí se arregla es que de aquí en adelante el registro cuente lo que pasó. Sin cambios funcionales.

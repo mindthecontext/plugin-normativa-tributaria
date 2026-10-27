@@ -164,6 +164,49 @@ que es quien va a fiscalizar. Cuando la circular acota a la ley, eso es lo opera
 decir que es la lectura del SII. Cuando parecen contradecirse de verdad, **eso es el hallazgo**:
 se declara la discrepancia con las dos citas y no se resuelve por cuenta propia.
 
+## 3 ter · Antes de cerrar, mira qué resolvieron los tribunales
+
+Si tu respuesta descansa en un **criterio del SII** —un oficio, una circular— sobre un artículo,
+falta una voz: la de los tribunales, que pueden haberlo resuelto **al revés**. El SII no lo dice en
+su propio oficio, y la respuesta que calla el fallo le promete al cliente una seguridad que no
+existe.
+
+**Es una llamada, y viene armada salvo la materia.** `buscar` trae `tribunales_sobre_este_caso` y
+la sección `jurisprudencia` de `buscar_por_ancla` trae `para_los_de_tu_caso`, con el ancla puesta.
+Llama a:
+
+    buscar_jurisprudencia(consulta="<el ancla>", materia="<dos a cuatro palabras del caso>")
+
+- **La `materia` la pones tú, y es lo que la hace servir.** Sin ella los fallos salen por fecha, y
+  un artículo como el 17 de la Ley de la Renta tiene 96: el pertinente queda enterrado. Pon el
+  hecho que distingue el caso —«expropiación indemnización», «castigo deudas incobrables»—, **no
+  la consulta entera**: medido, la frase del cliente no dejó ningún fallo de incobrables entre los
+  cinco primeros, y dos o tres palabras del hecho dejaron cinco de cinco.
+- **Lee lo que resolvió cada fallo pertinente**, no sólo su título. Si uno resuelve contra el
+  criterio del SII que vas a citar, **eso es el hallazgo**: las dos voces van en la respuesta, cada
+  una con su cita (oficio y fecha; tribunal, rol y fecha), y no se elige por cuenta propia. Lo
+  operativo para el cliente es saber que el SII va a fiscalizar con su criterio y que hay un
+  tribunal que lo desautorizó.
+- **Si bajo esa ancla no aparece nada de la materia, prueba sin ancla**:
+  `buscar_jurisprudencia(consulta="<el hecho en una frase corta>")` busca por parecido de
+  significado. El ancla que propone `buscar` sale de los documentos del SII, y a veces no es la del
+  fallo: medido en seis casos, en dos el fallo estaba anclado a otro artículo (el 107 y no el 17 en
+  una venta de acciones; el 53 y no el 52 en una negativa a timbrar facturas). Por parecido, con una
+  frase corta del hecho —«negativa del SII a timbrar facturas por deudas tributarias»— salió
+  tercero; con la frase entera del cliente, decimoquinto.
+- **Si no hay fallos sobre la materia, dilo** con lo que buscaste: «no encontré fallos sobre
+  expropiación bajo LIR:art17». Entrar por ancla recorre todos los fallos declarados sobre ese
+  artículo, así que esa ausencia sí informa; no prueba que no exista un fallo anclado a otro.
+- **Un fallo no es doctrina del SII ni deroga su criterio.** No digas «el criterio cambió» porque
+  un tribunal falló en contra: el ACJ no publica si el fallo quedó firme ni si el SII lo acató.
+
+**Por qué este paso, con el caso que lo hizo falta (NOR-303).** En el piloto de la evaluación
+comparativa, a una sociedad que recibió una indemnización por expropiación de un terreno de su
+activo, la respuesta citó bien el criterio del SII —tributa la diferencia con el costo
+tributario— y terminó con «No revisé jurisprudencia de tribunales sobre el punto». La Corte Suprema
+había resuelto lo contrario en 2025, y el fallo estaba en este corpus a dos llamadas. El juez de
+la evaluación lo marcó como error crítico: una respuesta que un abogado no podía usar tal cual.
+
 ## 4 · Repetición no es corroboración
 
 Si varios resultados dicen lo mismo con el mismo fraseo, revisa si son **el mismo documento
@@ -298,6 +341,10 @@ Una respuesta terminada tiene cuatro partes:
 3. **La cita literal con el id del documento**, para que se pueda abrir y verificar.
 4. **Qué queda fuera**: lo que el oficio no aborda, lo que depende de antecedentes que no
    tenemos, y si el criterio pudo cambiar.
+
+Y si el paso 3 ter encontró un fallo que resuelve contra el criterio del SII, va **en la respuesta,
+no en lo que queda fuera**: es la otra mitad de qué resolvió quién. «No revisé jurisprudencia» no
+es un límite aceptable cuando la llamada estaba a mano; es el paso que faltó.
 
 Cierra con la `procedencia` que devuelven las herramientas, copiada, no redactada.
 
