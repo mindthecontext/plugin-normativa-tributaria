@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.105 · 2026-10-31
+
+El oficio 2.232 de 1997 vuelve a encontrarse por su artículo. Preguntar qué ha resuelto el SII sobre el artículo 17 N° 8 de la Ley de la Renta vuelve a traerlo desde hoy: se había quedado sin ancla el 29 de octubre, y no por una decisión sino por un efecto. Ese documento ya no tiene texto propio —la página que el SII publicaba bajo su dirección es la de otro oficio, y así está declarado desde el veredicto 14—, y al retirar el texto se retiró también su ancla. Pero el ancla no salía del texto: sale de la referencia legal que el propio Servicio publica de ese documento, «Renta - Actual Ley sobre Impuesto a la - Art. 17°, N° 8, letra g)», y seguía siendo cierta sin él. Con esto el 2.232 vuelve a aparecer entre los pronunciamientos de ese artículo, con su número, su fecha y su materia, y diciendo que de su texto no disponemos.
+
+QUÉ LO HACÍA INVISIBLE, porque es más interesante que el arreglo. El saber tiene un paso que retira lo que se derivó de un texto ajeno, y su lista de qué retirar incluía las anclas. La pregunta que nadie había hecho es de dónde saca cada cosa su dato: las descripciones en lenguaje corriente las escribe una persona LEYENDO el documento, así que si leyó el cuerpo equivocado lo que escribió no vale; el ancla, en cambio, se acuña de un campo del índice del propio SII y no se lee del cuerpo. Lo primero hay que retirarlo y lo segundo no. TRES FUENTES DEL SERVICIO DECÍAN LO MISMO, y las tres se consultaron antes de restaurar: la referencia legal del índice apunta al artículo 17 N° 8 letra g); la curaduría por artículo del SII le atribuye ese mismo artículo y el anterior; y la glosa oficial de la letra g) —«el mayor valor obtenido en la adjudicación de bienes en liquidación de la sociedad conyugal»— es palabra por palabra la materia del documento. No había duda que resolver. LO QUE NO CAMBIA: el 2.232 sigue sin texto citable y su ficha lo sigue diciendo. Lo que vuelve es la puerta para llegar a él.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.104 · 2026-10-30
 
 Sin cambios en lo que el saber responde. El paquete lleva el ícono de MindTheContext.
