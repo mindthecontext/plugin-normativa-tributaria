@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.106 · 2026-11-01
+
+Sin cambios para quien lo usa.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.105 · 2026-10-31
 
 El oficio 2.232 de 1997 vuelve a encontrarse por su artículo. Preguntar qué ha resuelto el SII sobre el artículo 17 N° 8 de la Ley de la Renta vuelve a traerlo desde hoy: se había quedado sin ancla el 29 de octubre, y no por una decisión sino por un efecto. Ese documento ya no tiene texto propio —la página que el SII publicaba bajo su dirección es la de otro oficio, y así está declarado desde el veredicto 14—, y al retirar el texto se retiró también su ancla. Pero el ancla no salía del texto: sale de la referencia legal que el propio Servicio publica de ese documento, «Renta - Actual Ley sobre Impuesto a la - Art. 17°, N° 8, letra g)», y seguía siendo cierta sin él. Con esto el 2.232 vuelve a aparecer entre los pronunciamientos de ese artículo, con su número, su fecha y su materia, y diciendo que de su texto no disponemos.
