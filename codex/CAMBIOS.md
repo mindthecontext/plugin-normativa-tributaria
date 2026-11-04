@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.110 · 2026-11-04
+
+Añade 1 documento que el SII publicó desde la versión anterior (el oficio 2901 de 2026) y corrige la identidad con que se servía el oficio 2899 de 2025, que pasa a servirse como `oficio:2026:2899`. El documento es el mismo y su texto no cambia: lo que estaba mal era la clave con que lo nombrábamos.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.109 · 2026-11-03
 
 Añade 11 documentos que el SII publicó desde la versión anterior.
