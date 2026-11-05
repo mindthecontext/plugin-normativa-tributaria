@@ -133,6 +133,21 @@ Si quien pregunta necesita saber qué rige **hoy**, la vigencia es parte de la r
 nota al pie. Si pregunta por un hecho de 2019, el criterio de 2019 puede ser el correcto aunque
 hoy esté superado — y eso también hay que decirlo.
 
+**Cuando un oficio trae `criterio_superado_por_ley`**, una ley posterior dejó atrás algo de lo que
+respondió, y la ficha lo dice **punto por punto**. Respóndelo igual, por punto:
+
+- **`dejo_de_regir`:** di desde cuándo y por qué ley, con la cita del documento posterior.
+- **`rige_solo_para`:** nombra el régimen que lo conserva. Por ejemplo: «sigue rigiendo para inmuebles
+  adquiridos antes de 2004». Mira si el caso de quien pregunta cae ahí.
+- **`sigue_vigente`:** dilo también. Si no, quien te lee generaliza la caída al oficio entero.
+- **`causa: criterio_del_sii`:** lo que cambió fue el criterio del SII y no una ley. No lo presentes
+  como «superado por ley».
+- **`causa: se_agoto_su_plazo`:** la regla se dio por años contados y se acabó; nadie la derogó.
+
+Lo que **nunca** dices es que «el oficio está superado» a secas, ni que estaba mal. Si `completo` es
+`false`, la marca no habla de los otros puntos del oficio: no los des por vigentes ni por caídos. Y
+cita la revisión tal como viene: la revisaron dos familias de modelos, no un tributarista.
+
 ## 3 bis · La ley y la instrucción se leen juntas
 
 Si la pregunta es de **régimen** —cómo tributa algo, en qué orden se imputa, qué crédito
