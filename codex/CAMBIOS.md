@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.113 · 2026-11-07
+
+Sin cambios para quien lo usa.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.112 · 2026-11-06
 
 LA RESOLUCIÓN 151 DE 2026 ES OTRO DOCUMENTO desde hoy, y el saber lo avisa en vez de cambiarlo en silencio. Hasta ayer, `resolucion:2026:151` servía una resolución del 29 de octubre que dejaba sin efecto la Res. Ex. N° 12 de 2026 sobre acceso a la API de inicio de actividades. El SII reemplazó el fichero que publica en esa dirección por otro —el convenio de intercambio de información con el Servicio Nacional de Pesca y Acuicultura, del 3 de noviembre— y cambió su ficha del índice. Los dos textos se autodeclaran «N° 151 de 2026». Se sirve el nuevo, y `ver_documento` de la 151 y de la 148 trae ahora una nota curada que lo dice con esas palabras: quien citó «Resolución Exenta SII N° 151 de 2026» antes de hoy NO estaba citando este convenio. El acto desplazado no se pierde: su contenido lo sirve la `resolucion:2026:148`, con la que coincide en 96,4% y de la que no difiere en nada dispositivo. Y añade la resolución 153 de 2026, que el SII publicó el 4 de noviembre.
