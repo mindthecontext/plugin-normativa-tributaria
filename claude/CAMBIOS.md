@@ -4,6 +4,16 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.115 · 2026-11-09
+
+EL ARTÍCULO 20 DE LA LEY DE LA RENTA DEJA DE SERVIR LA TASA DE 2015. Preguntado por su nombre —«artículo 20 de la Ley de la Renta»—, `ver_articulo` entregaba hasta hoy el texto titulado «Artículo 20 N°1 letra a) (vigente al 31.12.2015)», que dice «Establécese un impuesto de 22,5%». Esa es la tasa de primera categoría de antes de la reforma de 2014: hoy son 25% en el Régimen Pro Pyme y 27% en el régimen de la letra A del artículo 14. Se entregaba como «fuente primaria», banda 1, y sin ninguna advertencia. Desde esta versión se sirve el texto vigente, y las tres piezas de 2015 siguen pidiéndose por su nombre con `parte`, ahora acompañadas del aviso de que el ACN las marca como terminadas: lo que ya no rige puede ser la respuesta correcta para hechos de su época, y lo que cambia es que no sea la respuesta por defecto. Si citaste la tasa del artículo 20 de este saber antes de hoy, conviene comprobarla.
+
+LA CAUSA ERA UNA PALABRA. El ACN del SII dice que un texto dejó de regir de dos maneras —«(vigente hasta el 31.12.2019)» y «(vigente al 31.12.2015)»— y el saber leía una. A la pieza de 2015 le bastaba escapar a esa lectura para ganar, porque la regla con que se elige qué servir es «la más extensa que el ACN no marque»: mide 8.877 caracteres contra 6.938 de la vigente. De las 1.136 entradas del articulado, las marcadas pasan de 53 a 56, y las tres que entran son las letras a), b) y c) del N° 1 de este artículo. Y LA FECHA ES PARTE DE LA MARCA, no un adorno: sin exigirla, «vigente al» caza prosa corriente de las glosas —«vigente al momento del pago del impuesto», en el artículo 55 del Código Tributario— y habría marcado como terminados dos artículos que rigen, que es el daño simétrico y peor. LO QUE ESTO NO ARREGLA: cuando el ACN no marca, el saber no tiene con qué saberlo. El N° 3 del artículo 31 de la Renta sigue publicando la devolución del impuesto de primera categoría como pago provisional, que la Ley 21.210 eliminó desde el 1 de enero de 2024, y su texto es idéntico al que el ACN publica hoy. Eso va declarado en `lo_que_NO_es_derivable` de cada respuesta, y para saber si una parte concreta sigue rigiendo hay que mirar las circulares y oficios que la interpretan.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.114 · 2026-11-08
 
 Sin cambios para quien lo usa.
