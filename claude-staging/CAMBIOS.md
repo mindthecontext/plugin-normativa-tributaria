@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.116 · 2026-11-10
+
+Añade 2 documentos que el SII publicó desde la versión anterior (el oficio 2927 de 2026 y la resolución 154 de 2026).
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.115 · 2026-11-09
 
 EL ARTÍCULO 20 DE LA LEY DE LA RENTA DEJA DE SERVIR LA TASA DE 2015. Preguntado por su nombre —«artículo 20 de la Ley de la Renta»—, `ver_articulo` entregaba hasta hoy el texto titulado «Artículo 20 N°1 letra a) (vigente al 31.12.2015)», que dice «Establécese un impuesto de 22,5%». Esa es la tasa de primera categoría de antes de la reforma de 2014: hoy son 25% en el Régimen Pro Pyme y 27% en el régimen de la letra A del artículo 14. Se entregaba como «fuente primaria», banda 1, y sin ninguna advertencia. Desde esta versión se sirve el texto vigente, y las tres piezas de 2015 siguen pidiéndose por su nombre con `parte`, ahora acompañadas del aviso de que el ACN las marca como terminadas: lo que ya no rige puede ser la respuesta correcta para hechos de su época, y lo que cambia es que no sea la respuesta por defecto. Si citaste la tasa del artículo 20 de este saber antes de hoy, conviene comprobarla.
