@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.3.117 · 2026-11-11
+
+Añade 5 documentos publicados desde la versión anterior: las circulares 42 y 43 de 2026 del SII, y tres sentencias —los roles 70-2025 y 71-2025 de la Corte de Apelaciones de Talca, sobre alza del avalúo fiscal, y el RIT GR-06-00007-2026 del Tribunal Tributario y Aduanero de la Región de Coquimbo, sobre el impuesto al lujo—. Completa además el texto de nueve sentencias que ya estaban en el corpus sin él: hasta ahora se encontraban por su materia y sus artículos, y desde esta versión se pueden citar literalmente.
+
+- Herramientas: `buscar`, `buscar_dato_periodico`, `buscar_en_texto`, `buscar_instrumento`, `buscar_jurisprudencia`, `buscar_por_ancla`, `buscar_por_situacion`, `buscar_por_tema`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `registrar_impresion`, `ver_articulo`, `ver_cambios`, `ver_celda`, `ver_documento`
+- Skills: `empezar-aqui`, `resolver-un-caso`
+- Datos: sin manifiesto
+
 ## v0.3.116 · 2026-11-10
 
 Añade 2 documentos que el SII publicó desde la versión anterior (el oficio 2927 de 2026 y la resolución 154 de 2026).
